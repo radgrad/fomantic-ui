@@ -27,7 +27,7 @@
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
@@ -38,12 +38,12 @@
 .ui.modal > i.icon:first-child + *,
 .ui.modal > .dimmer:first-child + *:not(.icon),
 .ui.modal > .dimmer:first-child + i.icon + * {
-  border-top-left-radius: 0.28571429rem;
-  border-top-right-radius: 0.28571429rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 .ui.modal > :last-child {
-  border-bottom-left-radius: 0.28571429rem;
-  border-bottom-right-radius: 0.28571429rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 .ui.modal > .ui.dimmer {
   border-radius: inherit;
@@ -82,7 +82,7 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   margin: 0;
   padding: 1.25rem 1.5rem;
@@ -92,7 +92,7 @@
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.modal > .header:not(.ui) {
-  font-size: 1.42857143rem;
+  font-size: 1.4375rem;
   line-height: 1.28571429em;
   font-weight: bold;
 }
@@ -206,19 +206,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.modal:not(.fullscreen) {
     width: 850px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.modal:not(.fullscreen) {
     width: 900px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.modal:not(.fullscreen) {
     width: 950px;
     margin: 0 0 0 0;
@@ -226,14 +226,14 @@
 }
 
 /* Tablet and Mobile */
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 1199.98px) {
   .ui.modal > .header {
     padding-right: 2.25rem;
   }
   .ui.modal > .close {
     top: 1.0535rem;
     right: 1rem;
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -332,7 +332,7 @@
   color: #FFFFFF;
 }
 .ui.inverted.dimmer > .basic.modal {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.inverted.dimmer > .ui.basic.modal > .header {
   color: rgba(0, 0, 0, 0.85);
@@ -475,7 +475,7 @@
 .ui.fullscreen.modal > .close {
   top: 1.0535rem;
   right: 1rem;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.basic.fullscreen.modal > .close {
   color: #FFFFFF;
@@ -503,19 +503,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.mini.modal {
     width: 340px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.mini.modal {
     width: 360px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.mini.modal {
     width: 380px;
     margin: 0 0 0 0;
@@ -536,19 +536,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.tiny.modal {
     width: 510px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.tiny.modal {
     width: 540px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.tiny.modal {
     width: 570px;
     margin: 0 0 0 0;
@@ -569,19 +569,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.small.modal {
     width: 680px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.small.modal {
     width: 720px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.small.modal {
     width: 760px;
     margin: 0 0 0 0;
@@ -602,19 +602,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.large.modal {
     width: 1020px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.large.modal {
     width: 1080px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.large.modal {
     width: 1140px;
     margin: 0 0 0 0;
@@ -635,19 +635,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.big.modal {
     width: 1190px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.big.modal {
     width: 1260px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.big.modal {
     width: 1330px;
     margin: 0 0 0 0;
@@ -668,19 +668,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.huge.modal {
     width: 1360px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.huge.modal {
     width: 1440px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.huge.modal {
     width: 1520px;
     margin: 0 0 0 0;
@@ -701,19 +701,19 @@
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .ui.massive.modal {
     width: 1530px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .ui.massive.modal {
     width: 1620px;
     margin: 0 0 0 0;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1400px) {
   .ui.massive.modal {
     width: 1710px;
     margin: 0 0 0 0;
@@ -741,7 +741,7 @@
 .ui.inverted.dimmer > .modal > .close {
   color: rgba(0, 0, 0, 0.85);
 }
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 1199.98px) {
   .ui.dimmer .inverted.modal > .close {
     color: #FFFFFF;
   }

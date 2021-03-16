@@ -39,7 +39,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  padding: 0.21428571rem 0;
+  padding: 0.1875rem 0;
   margin: 0;
   background: none;
   border-top: none;
@@ -80,7 +80,7 @@
   border-radius: 500rem;
 }
 .ui.feed > .event > .label + .content {
-  margin: 0.5em 0 0.35714286em 1.14285714em;
+  margin: 0.5em 0 0.3125em 1.125em;
 }
 
 /*--------------
@@ -129,7 +129,7 @@
   margin: 0;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* Summary Image */
@@ -169,7 +169,7 @@
   display: inline-block;
   float: none;
   font-weight: normal;
-  font-size: 0.85714286em;
+  font-size: 0.875em;
   font-style: normal;
   margin: 0 0 0 0.5em;
   padding: 0;
@@ -184,7 +184,7 @@
   margin: 0.5em 0 0;
   background: none;
   padding: 0;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* Images */
@@ -209,7 +209,7 @@
 
 .ui.feed > .event > .content .meta {
   display: inline-block;
-  font-size: 0.85714286em;
+  font-size: 0.875em;
   margin: 0.5em 0 0;
   background: none;
   border: none;
@@ -276,25 +276,25 @@
   font-size: 1rem;
 }
 .ui.mini.feed {
-  font-size: 0.78571429rem;
+  font-size: 0.8125rem;
 }
 .ui.tiny.feed {
-  font-size: 0.85714286rem;
+  font-size: 0.875rem;
 }
 .ui.small.feed {
-  font-size: 0.92857143rem;
+  font-size: 0.9375rem;
 }
 .ui.large.feed {
-  font-size: 1.14285714rem;
+  font-size: 1.125rem;
 }
 .ui.big.feed {
-  font-size: 1.28571429rem;
+  font-size: 1.3125rem;
 }
 .ui.huge.feed {
-  font-size: 1.42857143rem;
+  font-size: 1.4375rem;
 }
 .ui.massive.feed {
-  font-size: 1.71428571rem;
+  font-size: 1.6875rem;
 }
 
 /*------------------
