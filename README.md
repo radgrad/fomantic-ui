@@ -8,4 +8,4 @@ To Do:
 * Copy over, update, and run install.sh, see if site still looks OK.
 * Update font size.
 * Copy over and run install.sh.
-* Merge radgrad2 branch into master.  
+* Merge radgrad2 branch into master.
