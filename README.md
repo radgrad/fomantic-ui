@@ -110,13 +110,3 @@ Here is a summary of the modifications; follow the links to see the latest defin
 [src/site/elements/labels.variables](https://github.com/radgrad/fomantic-ui/blob/master/semantic/src/site/elements/label.variables)
 
   * Override label text color to make it darker.
-
-To Do:
-
-* Update README
-* Copy over customizations, rebuild.
-* Make sure we're in a radgrad2 branch.
-* Copy over, update, and run install.sh, see if site still looks OK.
-* Update font size.
-* Copy over and run install.sh.
-* Merge radgrad2 branch into master.
