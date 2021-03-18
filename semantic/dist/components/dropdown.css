@@ -1971,6 +1971,7 @@ select.ui.dropdown {
 .ui.vertical.menu .dropdown.item > .dropdown.icon:before {
   content: "\f0da" /*rtl:"\f0d9"*/;
 }
+
 /* Icons for Reference
 .dropdown.down.icon {
   content: "\f0d7";
@@ -1991,3 +1992,7 @@ select.ui.dropdown {
         User Overrides
 *******************************/
 
+/* DROPDOWNS: (avoid clipping with 16px font) */
+.ui.selection.dropdown {
+  padding: 0px;
+}

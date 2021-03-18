@@ -1,3 +1,8 @@
 /*******************************
         User Overrides
 *******************************/
+
+/* DROPDOWNS: (avoid clipping with 16px font) */
+.ui.selection.dropdown {
+  padding: 0px;
+}

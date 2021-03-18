@@ -60189,6 +60189,12 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
+
+/* DROPDOWNS: (avoid clipping with 16px font) */
+
+.ui.selection.dropdown {
+  padding: 0px;
+}
 /*!
  * # Fomantic-UI - Video
  * http://github.com/fomantic/Fomantic-UI/
