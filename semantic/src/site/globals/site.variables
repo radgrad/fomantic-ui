@@ -15,14 +15,7 @@
 @largeMonitorBreakpoint      : 1300px;
 @widescreenMonitorBreakpoint : 1400px;
 
-/* Define the color palette. From: http://www.colourlovers.com/palette/4349639/Mooiemensen */
-@mermaidGreenColor : #DBE2DB;
-@gardenGreenColor  : #3B8121;
-@navyBlueColor     : #335F82;
-@fuelGoldColor     : #C3AE48;
-@awayAtSeaTurquoiseColor: #91D8DE;
-
-/* Define Palette - Aljon */
+/* Color Palette */
 @radgrad-white             : #ffffff;
 @radgrad-softGrey          : #f7f7f7;
 @radgrad-yellow            : #CEB23F;
@@ -45,12 +38,11 @@
 @radgrad-ForegroundColor : @radgrad-radGreen;
 
 /* Misc Dictionary */
-@radgrad-secondary-border-width: 4px !important;
+@radgrad-secondary-border-width: 4px;
 @radgrad-secondary-border-color: @radgrad-radGreen;
 @radgrad-HeaderColor           : @radgrad-white;
 @radgrad-button-fontWeight     : 600;
 
-/** BACKGROUND DICTIONARY **/
 /* Menu */
 @radgrad-menu-background                : @radgrad-white;
 @radgrad-secondary-menu-background      : @radgrad-white;

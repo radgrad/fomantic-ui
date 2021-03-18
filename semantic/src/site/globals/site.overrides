@@ -2,45 +2,7 @@
          Site Overrides
 *******************************/
 
-/* Responsive Breakpoints */
-@media only screen and (max-width: 767px) {
-    .mobile.hidden,
-    .tablet.only,
-    .small.monitor.only,
-    .large.monitor.only {
-        display: none !important;
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .mobile.only,
-    .tablet.hidden,
-    .small.monitor.only,
-    .large.monitor.only {
-        display: none !important;
-    }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .mobile.only,
-    .tablet.only,
-    .small.monitor.hidden,
-    .large.monitor.only {
-        display: none !important;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .mobile.only,
-    .tablet.only,
-    .small.monitor.only,
-    .large.monitor.hidden {
-        display: none !important;
-    }
-}
-
-/* Miscellaneous */
-.ui.right.floated {
-  float: right;
-}
-
+/* LINKS */
 a {
   color: @link-color;
   font-weight: bold;
@@ -50,10 +12,31 @@ a:hover {
   color: @link-hover-color;
 }
 
+/* HEADER NUMBER */
+
 .radgrad-header-number {
   color: rgba(0,0,0,.6);
   font-weight: 600;
 }
+
+/* FONTS */
+
+.radgrad-brand-font {
+  font-family: 'Nunito';
+}
+
+.radgrad-extra-bold-font {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+/*  BACKGROUND COLOR */
+
+.radgrad-background-color {
+  background: @radgrad-BackgroundColor;
+}
+
+/* ICE */
 
 .radgrad-ice-header {
   float: right;
@@ -78,26 +61,6 @@ a:hover {
   background-color: #952263 !important;
 }
 
-.radgrad-help {
-  padding: 14px 14px 0px 14px !important;
-}
-
-/*  Background and foreground */
-.radgrad-background-color {
-  background: @radgrad-BackgroundColor;
-}
-
-/* Fonts */
-.radgrad-brand-font {
-  font-family: 'Nunito';
-}
-
-.radgrad-extra-bold-font {
-  font-family: 'Montserrat';
-  font-weight: 700;
-}
-
-/* ICE Font and Background Colors */
 .ice-competency-background {
   background: @iceCompetencyColor;
 }

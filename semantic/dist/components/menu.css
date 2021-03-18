@@ -25,7 +25,7 @@
   display: flex;
   margin: 1rem 0;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #ffffff;
+  background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -838,7 +838,7 @@ Floated Menu / Item
   ---------------*/
 
 .ui.secondary.menu {
-  background: #ffffff;
+  background: none;
   margin-left: -0.3125em;
   margin-right: -0.3125em;
   border-radius: 0;
@@ -2221,99 +2221,3 @@ Floated Menu / Item
          Theme Overrides
 *******************************/
 
-
-
-/*******************************
-         Site Overrides
-*******************************/
-
-
-/* FIRST MENU */
-.radgrad-first-menu {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-.radgrad-first-menu .item {
-  color: #696969 !important;
-}
-.radgrad-first-menu .icon {
-  color: #696969;
-}
-
-/* LOGIN BUTTON */
-#login-buttons-open-change-password,
-#login-buttons-logout,
-#login-buttons-password {
-  background: none !important;
-  border-color: #6FBE44 !important;
-  color: #6FBE44 !important;
-  text-transform: uppercase !important;
-  font-size: 0.8rem !important;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
-  font-weight: 600 !important;
-}
-#login-username-label-and-input,
-#login-password-label-and-input {
-  text-align: left !important;
-}
-#login-name-link {
-  color: #6FBE44 !important;
-  font-weight: 600 !important;
-}
-.login-close-text {
-  font-size: 1rem !important;
-  color: #38840F !important;
-  font-weight: 600 !important;
-}
-
-/* MENU PROFILE */
-.radgrad-menu-profile {
-  font-size: 0.85rem;
-  margin-top: 3px;
-}
-.radgrad-menu-profile .radgrad-menu-icon-button {
-  font-size: 0.9rem;
-  padding: 0 0.4rem 0 0.8rem !important;
-}
-.radgrad-menu-profile .item > .avatar {
-  margin-right: 0.8rem;
-}
-.radgrad-menu-profile .header {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.radgrad-menu-profile .label {
-  font-size: 0.8rem !important;
-  margin: 4px 0 0 0 !important;
-}
-.radgrad-menu-profile .radgrad-level {
-  font-size: 1.2em !important;
-  margin: 0 !important;
-}
-
-/* SECOND MENU */
-.radgrad-second-menu {
-  border-radius: 0;
-  margin-top: 75px;
-  z-index: 3 !important;
-}
-.radgrad-second-menu .item {
-  color: #86CAB5;
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  font-size: 0.9rem !important;
-  border-bottom-width: 4px !important;
-}
-.radgrad-second-menu .item:hover {
-  color: #1B7F61;
-}
-.radgrad-second-menu .active.item {
-  color: #1B7F61;
-  border-bottom-color: #6FBE44 !important;
-}
-.radgrad-second-menu a.item:active {
-  border-color: #6FBE44 !important;
-}
-.ui.vertical.text.menu {
-  background-color: #f7f7f7 !important;
-}

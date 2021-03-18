@@ -660,49 +660,7 @@ body .ui.inverted:not(.dimmer)::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
-/* Responsive Breakpoints */
-
-@media only screen and (max-width: 767px) {
-  .mobile.hidden,
-  .tablet.only,
-  .small.monitor.only,
-  .large.monitor.only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .mobile.only,
-  .tablet.hidden,
-  .small.monitor.only,
-  .large.monitor.only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .mobile.only,
-  .tablet.only,
-  .small.monitor.hidden,
-  .large.monitor.only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .mobile.only,
-  .tablet.only,
-  .small.monitor.only,
-  .large.monitor.hidden {
-    display: none !important;
-  }
-}
-
-/* Miscellaneous */
-
-.ui.right.floated {
-  float: right;
-}
+/* LINKS */
 
 a {
   color: #38840F;
@@ -713,10 +671,31 @@ a:hover {
   color: #2e6d0c;
 }
 
+/* HEADER NUMBER */
+
 .radgrad-header-number {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
 }
+
+/* FONTS */
+
+.radgrad-brand-font {
+  font-family: 'Nunito';
+}
+
+.radgrad-extra-bold-font {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+/*  BACKGROUND COLOR */
+
+.radgrad-background-color {
+  background: #f7f7f7;
+}
+
+/* ICE */
 
 .radgrad-ice-header {
   float: right;
@@ -740,29 +719,6 @@ a:hover {
   margin: 0 5px 0 0important;
   background-color: #952263 !important;
 }
-
-.radgrad-help {
-  padding: 14px 14px 0px 14px !important;
-}
-
-/*  Background and foreground */
-
-.radgrad-background-color {
-  background: #f7f7f7;
-}
-
-/* Fonts */
-
-.radgrad-brand-font {
-  font-family: 'Nunito';
-}
-
-.radgrad-extra-bold-font {
-  font-family: 'Montserrat';
-  font-weight: 700;
-}
-
-/* ICE Font and Background Colors */
 
 .ice-competency-background {
   background: #26407C;
@@ -6767,35 +6723,6 @@ a:hover {
 /*******************************
          Site Overrides
 *******************************/
-
-.radgrad-home-buttons .button > .chevron.circle.right.icon {
-  margin-left: 0 !important;
-  margin-bottom: 5px !important;
-}
-
-.radgrad-home-buttons .button > .hide.icon {
-  margin-right: 0 !important;
-  margin-bottom: 5px !important;
-  margin-left: 1px !important;
-}
-
-.radgrad-home-buttons .button > .chooseSemester .plus.icon {
-  margin-right: 0 !important;
-  margin-bottom: 3px !important;
-  margin-left: 1px;
-}
-
-.radgrad-home-buttons .button > .chooseYear .plus.icon {
-  margin-right: 0 !important;
-  margin-bottom: 3px !important;
-  margin-left: 1px;
-}
-
-.radgrad-home-buttons .button > .unhide .unhide.icon {
-  margin-right: 0 !important;
-  margin-bottom: 5px !important;
-  margin-left: 1px;
-}
 /*!
  * # Fomantic-UI - Container
  * http://github.com/fomantic/Fomantic-UI/
@@ -6849,15 +6776,15 @@ a:hover {
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(719px + 1rem);
+    width: calc(719px + 2rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(719px + 1rem);
+    width: calc(719px + 3rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(719px + 1rem);
+    width: calc(719px + 5rem);
   }
 }
 
@@ -6865,21 +6792,21 @@ a:hover {
 
 @media only screen and (min-width: 1200px) and (max-width: 1299.98px) {
   .ui.ui.ui.container:not(.fluid) {
-    width: 1151px;
+    width: 1135px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(1151px + 1rem);
+    width: calc(1135px + 2rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(1151px + 1rem);
+    width: calc(1135px + 3rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(1151px + 1rem);
+    width: calc(1135px + 5rem);
   }
 }
 
@@ -6887,21 +6814,21 @@ a:hover {
 
 @media only screen and (min-width: 1300px) {
   .ui.ui.ui.container:not(.fluid) {
-    width: 1251px;
+    width: 1219px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(1251px + 1rem);
+    width: calc(1219px + 2rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(1251px + 1rem);
+    width: calc(1219px + 3rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(1251px + 1rem);
+    width: calc(1219px + 5rem);
   }
 }
 
@@ -42323,7 +42250,7 @@ span.ui.massive.text {
 .ui.form .field > label {
   display: block;
   margin: 0 0 0.25rem 0;
-  color: #696969;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -43873,7 +43800,7 @@ span.ui.massive.text {
 
 .ui.form .grouped.fields > label {
   margin: 0 0 0.25rem 0;
-  color: #696969;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -44098,7 +44025,7 @@ span.ui.massive.text {
   vertical-align: baseline;
   font-size: 0.9375em;
   font-weight: bold;
-  color: #696969;
+  color: rgba(0, 0, 0, 0.8);
   text-transform: none;
 }
 
@@ -44219,13 +44146,6 @@ span.ui.massive.text {
 /*******************************
          Site Overrides
 *******************************/
-
-label > h1,
-label > h2,
-label > h3 {
-  color: #1B7F61;
-  text-transform: uppercase !important;
-}
 /*!
  * # Fomantic-UI - Grid
  * http://github.com/fomantic/Fomantic-UI/
@@ -46613,7 +46533,7 @@ label > h3 {
   display: flex;
   margin: 1rem 0;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #ffffff;
+  background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -47498,7 +47418,7 @@ Floated Menu / Item
   ---------------*/
 
 .ui.secondary.menu {
-  background: #ffffff;
+  background: none;
   margin-left: -0.3125em;
   margin-right: -0.3125em;
   border-radius: 0;
@@ -49108,119 +49028,6 @@ Floated Menu / Item
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
-
-/* FIRST MENU */
-
-.radgrad-first-menu {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
-
-.radgrad-first-menu .item {
-  color: #696969 !important;
-}
-
-.radgrad-first-menu .icon {
-  color: #696969;
-}
-
-/* LOGIN BUTTON */
-
-#login-buttons-open-change-password,
-#login-buttons-logout,
-#login-buttons-password {
-  background: none !important;
-  border-color: #6FBE44 !important;
-  color: #6FBE44 !important;
-  text-transform: uppercase !important;
-  font-size: 0.8rem !important;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
-  font-weight: 600 !important;
-}
-
-#login-username-label-and-input,
-#login-password-label-and-input {
-  text-align: left !important;
-}
-
-#login-name-link {
-  color: #6FBE44 !important;
-  font-weight: 600 !important;
-}
-
-.login-close-text {
-  font-size: 1rem !important;
-  color: #38840F !important;
-  font-weight: 600 !important;
-}
-
-/* MENU PROFILE */
-
-.radgrad-menu-profile {
-  font-size: 0.85rem;
-  margin-top: 3px;
-}
-
-.radgrad-menu-profile .radgrad-menu-icon-button {
-  font-size: 0.9rem;
-  padding: 0 0.4rem 0 0.8rem !important;
-}
-
-.radgrad-menu-profile .item > .avatar {
-  margin-right: 0.8rem;
-}
-
-.radgrad-menu-profile .header {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.radgrad-menu-profile .label {
-  font-size: 0.8rem !important;
-  margin: 4px 0 0 0 !important;
-}
-
-.radgrad-menu-profile .radgrad-level {
-  font-size: 1.2em !important;
-  margin: 0 !important;
-}
-
-/* SECOND MENU */
-
-.radgrad-second-menu {
-  border-radius: 0;
-  margin-top: 75px;
-  z-index: 3 !important;
-}
-
-.radgrad-second-menu .item {
-  color: #86CAB5;
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  font-size: 0.9rem !important;
-  border-bottom-width: 4px !important;
-}
-
-.radgrad-second-menu .item:hover {
-  color: #1B7F61;
-}
-
-.radgrad-second-menu .active.item {
-  color: #1B7F61;
-  border-bottom-color: #6FBE44 !important;
-}
-
-.radgrad-second-menu a.item:active {
-  border-color: #6FBE44 !important;
-}
-
-.ui.vertical.text.menu {
-  background-color: #f7f7f7 !important;
-}
 /*!
  * # Fomantic-UI - Message
  * http://github.com/fomantic/Fomantic-UI/
@@ -49554,14 +49361,14 @@ Floated Menu / Item
 }
 
 .ui.info.message {
-  background-color: #dff1eb;
-  color: #409178;
+  background-color: #F8FFFF;
+  color: #276F86;
 }
 
 .ui.info.message,
 .ui.attached.info.message {
-  -webkit-box-shadow: 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
-  box-shadow: 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 1px #A9D5DE inset, 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 1px #A9D5DE inset, 0 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .ui.floating.info.message {
@@ -49970,22 +49777,6 @@ Floated Menu / Item
 /*******************************
         Site Overrides
 *******************************/
-
-.radgrad-help-title .icon.dropdown {
-  color: #409178;
-}
-
-.radgrad-help-title span {
-  font-size: 0.9rem;
-  color: #409178;
-  text-transform: uppercase;
-}
-
-.radgrad-help-title .icon.help {
-  color: #409178;
-  position: relative;
-  bottom: 2.5px;
-}
 /*!
  * # Fomantic-UI - Table
  * http://github.com/fomantic/Fomantic-UI/
@@ -54345,39 +54136,6 @@ a.inverted.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-
-.radgrad-interest-card .content:nth-child(2) > p {
-  text-indent: 4px;
-  font-size: 0.95em;
-}
-
-.radgrad-interest-card .content:nth-child(3) {
-  text-align: center;
-}
-
-.radgrad-interest-card .content:nth-child(3) > h5 {
-  font-size: 0.85rem;
-  color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 0;
-}
-
-.radgrad-interest-card .content:nth-child(3) > span {
-  font-size: 0.85rem;
-  color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 0;
-  font-weight: 700;
-}
-
-.radgrad-interest-card .content:nth-child(3) > span {
-  font-size: 0.85rem;
-  color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 0;
-  font-weight: 700;
-}
-
-.radgrad-interest-card .content:nth-child(3) > .images a .image {
-  margin: 0 2px;
-}
 /*!
  * # Fomantic-UI - Comment
  * http://github.com/fomantic/Fomantic-UI/
