@@ -1805,8 +1805,8 @@ a:hover {
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #E0E1E2 none;
-  color: rgba(0, 0, 0, 0.6);
+  background: #6FBE44;
+  color: #ffffff !important;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0 0.25em 0 0;
   padding: 0.6875em 1.5em 0.6875em;
@@ -1829,7 +1829,7 @@ a:hover {
   transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
   transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
   will-change: auto;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: #64ad3c;
 }
 
 /*******************************
@@ -1841,7 +1841,7 @@ a:hover {
 ---------------*/
 
 .ui.button:hover {
-  background-color: #CACBCD;
+  background-color: #64ad3c;
   background-image: none;
   -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
   box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
@@ -1857,8 +1857,8 @@ a:hover {
 ---------------*/
 
 .ui.button:focus {
-  background-color: #CACBCD;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: #64ad3c;
+  color: #64ad3c;
   background-image: none;
   -webkit-box-shadow: '';
   box-shadow: '';
@@ -1874,7 +1874,7 @@ a:hover {
 
 .ui.button:active,
 .ui.active.button:active {
-  background-color: #BABBBC;
+  background-color: #64ad3c;
   background-image: '';
   color: rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: 0 0 0 1px transparent inset, none;
@@ -2176,7 +2176,7 @@ a:hover {
   background: #FFFFFF;
   -webkit-box-shadow: 0 0 0 2px #FFFFFF inset;
   box-shadow: 0 0 0 2px #FFFFFF inset;
-  color: rgba(0, 0, 0, 0.8);
+  color: #64ad3c;
 }
 
 /* Active Focus */
@@ -2185,7 +2185,7 @@ a:hover {
   background: #DCDDDE;
   -webkit-box-shadow: 0 0 0 2px #DCDDDE inset;
   box-shadow: 0 0 0 2px #DCDDDE inset;
-  color: rgba(0, 0, 0, 0.8);
+  color: #64ad3c;
 }
 
 /*-------------------
@@ -2643,8 +2643,8 @@ a:hover {
 .ui.basic.buttons .button,
 .ui.basic.button {
   background: transparent none;
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: normal;
+  color: #ffffff !important;
+  font-weight: 600;
   border-radius: 0.25rem;
   text-transform: none;
   text-shadow: none !important;
@@ -2797,29 +2797,29 @@ a:hover {
   padding: 0.5em !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: #ffffff !important;
   background: none;
 }
 
 .ui.tertiary.button:hover {
-  -webkit-box-shadow: inset 0 -0.2em 0 #666666;
-  box-shadow: inset 0 -0.2em 0 #666666;
-  color: #333333;
+  -webkit-box-shadow: inset 0 -0.2em 0 #ffffff !important;
+  box-shadow: inset 0 -0.2em 0 #ffffff !important;
+  color: #ffffff !important;
   background: none;
 }
 
 .ui.tertiary.button:focus {
-  -webkit-box-shadow: inset 0 -0.2em 0 #666666;
-  box-shadow: inset 0 -0.2em 0 #666666;
-  color: #333333;
+  -webkit-box-shadow: inset 0 -0.2em 0 #ffffff !important;
+  box-shadow: inset 0 -0.2em 0 #ffffff !important;
+  color: #ffffff !important;
   background: none;
 }
 
 .ui.tertiary.button:active {
-  -webkit-box-shadow: inset 0 -0.2em 0 #999999;
-  box-shadow: inset 0 -0.2em 0 #999999;
+  -webkit-box-shadow: inset 0 -0.2em 0 #ffffff !important;
+  box-shadow: inset 0 -0.2em 0 #ffffff !important;
   border-radius: 0.25rem 0.25rem 0 0;
-  color: #666666;
+  color: #ffffff !important;
   background: none;
 }
 
@@ -3298,7 +3298,7 @@ a:hover {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #53A78E;
+  background-color: #6FBE44;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3311,21 +3311,21 @@ a:hover {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #479a81;
+  background-color: #62b236;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #3e937a;
+  background-color: #5aac2e;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #428571;
+  background-color: #599a35;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3334,7 +3334,7 @@ a:hover {
 .ui.primary.buttons .active.button:active,
 .ui.primary.active.button,
 .ui.primary.button .active.button:active {
-  background-color: #459c82;
+  background-color: #61b534;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3344,40 +3344,40 @@ a:hover {
 .ui.basic.primary.buttons .button,
 .ui.basic.primary.button {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #53A78E inset;
-  box-shadow: 0 0 0 1px #53A78E inset;
-  color: #53A78E;
+  -webkit-box-shadow: 0 0 0 1px #6FBE44 inset;
+  box-shadow: 0 0 0 1px #6FBE44 inset;
+  color: #6FBE44;
 }
 
 .ui.basic.primary.buttons .button:hover,
 .ui.basic.primary.button:hover {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #479a81 inset;
-  box-shadow: 0 0 0 1px #479a81 inset;
-  color: #479a81;
+  -webkit-box-shadow: 0 0 0 1px #62b236 inset;
+  box-shadow: 0 0 0 1px #62b236 inset;
+  color: #62b236;
 }
 
 .ui.basic.primary.buttons .button:focus,
 .ui.basic.primary.button:focus {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #3e937a inset;
-  box-shadow: 0 0 0 1px #3e937a inset;
-  color: #479a81;
+  -webkit-box-shadow: 0 0 0 1px #5aac2e inset;
+  box-shadow: 0 0 0 1px #5aac2e inset;
+  color: #62b236;
 }
 
 .ui.basic.primary.buttons .active.button,
 .ui.basic.primary.active.button {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #459c82 inset;
-  box-shadow: 0 0 0 1px #459c82 inset;
-  color: #428571;
+  -webkit-box-shadow: 0 0 0 1px #61b534 inset;
+  box-shadow: 0 0 0 1px #61b534 inset;
+  color: #599a35;
 }
 
 .ui.basic.primary.buttons .button:active,
 .ui.basic.primary.button:active {
-  -webkit-box-shadow: 0 0 0 1px #428571 inset;
-  box-shadow: 0 0 0 1px #428571 inset;
-  color: #428571;
+  -webkit-box-shadow: 0 0 0 1px #599a35 inset;
+  box-shadow: 0 0 0 1px #599a35 inset;
+  color: #599a35;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -3478,23 +3478,23 @@ a:hover {
   background: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #53A78E;
+  color: #6FBE44;
 }
 
 .ui.tertiary.primary.buttons .button:hover,
 .ui.tertiary.primary.buttons button:hover,
 .ui.tertiary.primary.button:hover {
-  -webkit-box-shadow: inset 0 -0.2em 0 #5d8378;
-  box-shadow: inset 0 -0.2em 0 #5d8378;
-  color: #5d8378;
+  -webkit-box-shadow: inset 0 -0.2em 0 #699b4e;
+  box-shadow: inset 0 -0.2em 0 #699b4e;
+  color: #699b4e;
 }
 
 .ui.tertiary.primary.buttons .button:focus,
 .ui.tertiary.primary.buttons .tertiary.button:focus,
 .ui.tertiary.primary.button:focus {
-  -webkit-box-shadow: inset 0 -0.2em 0 #537e71;
-  box-shadow: inset 0 -0.2em 0 #537e71;
-  color: #537e71;
+  -webkit-box-shadow: inset 0 -0.2em 0 #609643;
+  box-shadow: inset 0 -0.2em 0 #609643;
+  color: #609643;
 }
 
 .ui.tertiary.primary.buttons .active.button,
@@ -3503,14 +3503,14 @@ a:hover {
 .ui.tertiary.primary.buttons .button:active,
 .ui.tertiary.primary.buttons .tertiary.button:active,
 .ui.tertiary.primary.button:active {
-  -webkit-box-shadow: inset 0 -0.2em 0 #2eb28b;
-  box-shadow: inset 0 -0.2em 0 #2eb28b;
-  color: #459c82;
+  -webkit-box-shadow: inset 0 -0.2em 0 #5acc1c;
+  box-shadow: inset 0 -0.2em 0 #5acc1c;
+  color: #61b534;
 }
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #1B1C1D;
+  background-color: #64ad3c;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3523,21 +3523,21 @@ a:hover {
 
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #27292a;
+  background-color: #599a35;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
-  background-color: #2e3032;
+  background-color: #74cd44;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #343637;
+  background-color: #7ec557;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3546,7 +3546,7 @@ a:hover {
 .ui.secondary.buttons .active.button:active,
 .ui.secondary.active.button,
 .ui.secondary.button .active.button:active {
-  background-color: #27292a;
+  background-color: #6cc73b;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3556,40 +3556,40 @@ a:hover {
 .ui.basic.secondary.buttons .button,
 .ui.basic.secondary.button {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #1B1C1D inset;
-  box-shadow: 0 0 0 1px #1B1C1D inset;
-  color: #1B1C1D;
+  -webkit-box-shadow: 0 0 0 1px #64ad3c inset;
+  box-shadow: 0 0 0 1px #64ad3c inset;
+  color: #64ad3c;
 }
 
 .ui.basic.secondary.buttons .button:hover,
 .ui.basic.secondary.button:hover {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #27292a inset;
-  box-shadow: 0 0 0 1px #27292a inset;
-  color: #27292a;
+  -webkit-box-shadow: 0 0 0 1px #599a35 inset;
+  box-shadow: 0 0 0 1px #599a35 inset;
+  color: #599a35;
 }
 
 .ui.basic.secondary.buttons .button:focus,
 .ui.basic.secondary.button:focus {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #2e3032 inset;
-  box-shadow: 0 0 0 1px #2e3032 inset;
-  color: #27292a;
+  -webkit-box-shadow: 0 0 0 1px #74cd44 inset;
+  box-shadow: 0 0 0 1px #74cd44 inset;
+  color: #599a35;
 }
 
 .ui.basic.secondary.buttons .active.button,
 .ui.basic.secondary.active.button {
   background: transparent;
-  -webkit-box-shadow: 0 0 0 1px #27292a inset;
-  box-shadow: 0 0 0 1px #27292a inset;
-  color: #343637;
+  -webkit-box-shadow: 0 0 0 1px #6cc73b inset;
+  box-shadow: 0 0 0 1px #6cc73b inset;
+  color: #7ec557;
 }
 
 .ui.basic.secondary.buttons .button:active,
 .ui.basic.secondary.button:active {
-  -webkit-box-shadow: 0 0 0 1px #343637 inset;
-  box-shadow: 0 0 0 1px #343637 inset;
-  color: #343637;
+  -webkit-box-shadow: 0 0 0 1px #7ec557 inset;
+  box-shadow: 0 0 0 1px #7ec557 inset;
+  color: #7ec557;
 }
 
 .ui.buttons:not(.vertical) > .basic.secondary.button:not(:first-child) {
@@ -3690,23 +3690,23 @@ a:hover {
   background: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #1B1C1D;
+  color: #64ad3c;
 }
 
 .ui.tertiary.secondary.buttons .button:hover,
 .ui.tertiary.secondary.buttons button:hover,
 .ui.tertiary.secondary.button:hover {
-  -webkit-box-shadow: inset 0 -0.2em 0 #292929;
-  box-shadow: inset 0 -0.2em 0 #292929;
-  color: #292929;
+  -webkit-box-shadow: inset 0 -0.2em 0 #5f854a;
+  box-shadow: inset 0 -0.2em 0 #5f854a;
+  color: #5f854a;
 }
 
 .ui.tertiary.secondary.buttons .button:focus,
 .ui.tertiary.secondary.buttons .tertiary.button:focus,
 .ui.tertiary.secondary.button:focus {
-  -webkit-box-shadow: inset 0 -0.2em 0 #303030;
-  box-shadow: inset 0 -0.2em 0 #303030;
-  color: #303030;
+  -webkit-box-shadow: inset 0 -0.2em 0 #7bb65c;
+  box-shadow: inset 0 -0.2em 0 #7bb65c;
+  color: #7bb65c;
 }
 
 .ui.tertiary.secondary.buttons .active.button,
@@ -3715,9 +3715,9 @@ a:hover {
 .ui.tertiary.secondary.buttons .button:active,
 .ui.tertiary.secondary.buttons .tertiary.button:active,
 .ui.tertiary.secondary.button:active {
-  -webkit-box-shadow: inset 0 -0.2em 0 #1f2933;
-  box-shadow: inset 0 -0.2em 0 #1f2933;
-  color: #27292a;
+  -webkit-box-shadow: inset 0 -0.2em 0 #65e022;
+  box-shadow: inset 0 -0.2em 0 #65e022;
+  color: #6cc73b;
 }
 
 .ui.red.buttons .button,
@@ -4252,7 +4252,7 @@ a:hover {
 .ui.inverted.yellow.button:active {
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
 }
 
 .ui.inverted.yellow.buttons .button:hover,
@@ -4464,7 +4464,7 @@ a:hover {
 .ui.inverted.olive.button:active {
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
 }
 
 .ui.inverted.olive.buttons .button:hover,
@@ -4888,7 +4888,7 @@ a:hover {
 .ui.inverted.teal.button:active {
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
 }
 
 .ui.inverted.teal.buttons .button:hover,
@@ -6160,7 +6160,7 @@ a:hover {
 .ui.inverted.grey.button:active {
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
 }
 
 .ui.inverted.grey.buttons .button:hover,
@@ -6767,6 +6767,35 @@ a:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+.radgrad-home-buttons .button > .chevron.circle.right.icon {
+  margin-left: 0 !important;
+  margin-bottom: 5px !important;
+}
+
+.radgrad-home-buttons .button > .hide.icon {
+  margin-right: 0 !important;
+  margin-bottom: 5px !important;
+  margin-left: 1px !important;
+}
+
+.radgrad-home-buttons .button > .chooseSemester .plus.icon {
+  margin-right: 0 !important;
+  margin-bottom: 3px !important;
+  margin-left: 1px;
+}
+
+.radgrad-home-buttons .button > .chooseYear .plus.icon {
+  margin-right: 0 !important;
+  margin-bottom: 3px !important;
+  margin-left: 1px;
+}
+
+.radgrad-home-buttons .button > .unhide .unhide.icon {
+  margin-right: 0 !important;
+  margin-bottom: 5px !important;
+  margin-left: 1px;
+}
 /*!
  * # Fomantic-UI - Container
  * http://github.com/fomantic/Fomantic-UI/
@@ -6820,15 +6849,15 @@ a:hover {
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(719px + 2rem);
+    width: calc(719px + 1rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(719px + 3rem);
+    width: calc(719px + 1rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(719px + 5rem);
+    width: calc(719px + 1rem);
   }
 }
 
@@ -6836,21 +6865,21 @@ a:hover {
 
 @media only screen and (min-width: 1200px) and (max-width: 1299.98px) {
   .ui.ui.ui.container:not(.fluid) {
-    width: 1135px;
+    width: 1151px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(1135px + 2rem);
+    width: calc(1151px + 1rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(1135px + 3rem);
+    width: calc(1151px + 1rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(1135px + 5rem);
+    width: calc(1151px + 1rem);
   }
 }
 
@@ -6858,21 +6887,21 @@ a:hover {
 
 @media only screen and (min-width: 1300px) {
   .ui.ui.ui.container:not(.fluid) {
-    width: 1219px;
+    width: 1251px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(1219px + 2rem);
+    width: calc(1251px + 1rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(1219px + 3rem);
+    width: calc(1251px + 1rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(1219px + 5rem);
+    width: calc(1251px + 1rem);
   }
 }
 
@@ -34937,10 +34966,10 @@ img.ui.bordered.image {
   line-height: 1;
   vertical-align: baseline;
   margin: 0 0.125em;
-  background-color: #53A78E;
+  background-color: #53A78E !important;
   background-image: none;
   padding: 0.5833em 0.833em;
-  color: #ffffff;
+  color: #ffffff !important;
   text-transform: none;
   font-weight: bold;
   border: 0 solid transparent;
@@ -35126,7 +35155,7 @@ a.ui.label {
   max-width: 9999px;
   vertical-align: baseline;
   text-transform: none;
-  background: #53A78E;
+  background: #53A78E !important;
   padding: 0.5833em 0.833em 0.5833em 0.5em;
   border-radius: 0.25rem;
   -webkit-box-shadow: none;
@@ -35233,7 +35262,7 @@ a.ui.label {
   margin: 0;
   padding: 0;
   text-align: center;
-  border-color: #53A78E;
+  border-color: #53A78E !important;
   width: 4em;
   height: 4em;
   z-index: 1;
@@ -35494,8 +35523,8 @@ a.ui.label {
 
 .ui.labels a.label:hover,
 a.ui.label:hover {
-  background-color: #4b9680;
-  border-color: #4b9680;
+  background-color: #4b9680 !important;
+  border-color: #4b9680 !important;
   background-image: none;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -35623,15 +35652,15 @@ a.ui.basic.label:hover {
 .ui.inverted.labels .label,
 .ui.inverted.label {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #316354;
+  background-color: #316354 !important;
 }
 
 .ui.inverted.corner.label {
-  border-color: #316354;
+  border-color: #316354 !important;
 }
 
 .ui.inverted.corner.label:hover {
-  border-color: #53A78E;
+  border-color: #53A78E !important;
   -webkit-transition: none;
   transition: none;
 }
@@ -37534,12 +37563,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #38840F;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #2e6d0c;
 }
 
 /* Linked Item Icons */
@@ -37556,12 +37585,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #38840F !important;
 }
 
 .ui.list .list > .item > a.header:hover,
 .ui.list > .item > a.header:hover {
-  color: #1e70bf !important;
+  color: #2e6d0c !important;
 }
 
 /* Floated Content */
@@ -42294,7 +42323,7 @@ span.ui.massive.text {
 .ui.form .field > label {
   display: block;
   margin: 0 0 0.25rem 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: #696969;
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -43844,7 +43873,7 @@ span.ui.massive.text {
 
 .ui.form .grouped.fields > label {
   margin: 0 0 0.25rem 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: #696969;
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -44069,7 +44098,7 @@ span.ui.massive.text {
   vertical-align: baseline;
   font-size: 0.9375em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.8);
+  color: #696969;
   text-transform: none;
 }
 
@@ -44190,6 +44219,13 @@ span.ui.massive.text {
 /*******************************
          Site Overrides
 *******************************/
+
+label > h1,
+label > h2,
+label > h3 {
+  color: #1B7F61 !important;
+  text-transform: uppercase !important;
+}
 /*!
  * # Fomantic-UI - Grid
  * http://github.com/fomantic/Fomantic-UI/
@@ -46577,7 +46613,7 @@ span.ui.massive.text {
   display: flex;
   margin: 1rem 0;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #ffffff;
+  background: #ffffff !important;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -47462,7 +47498,7 @@ Floated Menu / Item
   ---------------*/
 
 .ui.secondary.menu {
-  background: #ffffff;
+  background: #ffffff !important;
   margin-left: -0.3125em;
   margin-right: -0.3125em;
   border-radius: 0;
@@ -49076,6 +49112,115 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
+
+/* FIRST MENU */
+
+.radgrad-first-menu {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.radgrad-first-menu .item {
+  color: #696969 !important;
+}
+
+.radgrad-first-menu .icon {
+  color: #696969;
+}
+
+/* LOGIN BUTTON */
+
+#login-buttons-open-change-password,
+#login-buttons-logout,
+#login-buttons-password {
+  background: none !important;
+  border-color: #6FBE44 !important;
+  color: #6FBE44 !important;
+  text-transform: uppercase !important;
+  font-size: 0.8rem !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+#login-username-label-and-input,
+#login-password-label-and-input {
+  text-align: left !important;
+}
+
+#login-name-link {
+  color: #6FBE44 !important;
+  font-weight: 600 !important;
+}
+
+.login-close-text {
+  font-size: 1rem !important;
+  color: #38840F !important;
+  font-weight: 600 !important;
+}
+
+/* MENU PROFILE */
+
+.radgrad-menu-profile {
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+.radgrad-menu-profile .radgrad-menu-icon-button {
+  font-size: 0.9rem;
+  padding: 0 0.4rem 0 0.8rem !important;
+}
+
+.radgrad-menu-profile .item > .avatar {
+  margin-right: 0.8rem;
+}
+
+.radgrad-menu-profile .header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.radgrad-menu-profile .label {
+  font-size: 0.8rem !important;
+  margin: 4px 0 0 0 !important;
+}
+
+.radgrad-menu-profile .radgrad-level {
+  font-size: 1.2em !important;
+  margin: 0 !important;
+}
+
+/* SECOND MENU */
+
+.radgrad-second-menu {
+  border-radius: 0;
+  margin-top: 75px !important;
+  z-index: 3 !important;
+}
+
+.radgrad-second-menu .item {
+  color: #86CAB5 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+  border-bottom-width: 4px !important;
+}
+
+.radgrad-second-menu .item:hover {
+  color: #1B7F61 !important;
+}
+
+.radgrad-second-menu .active.item {
+  color: #1B7F61 !important;
+  border-bottom-color: #6FBE44 !important;
+}
+
+.radgrad-second-menu a.item:active {
+  border-color: #6FBE44 !important;
+}
+
+.ui.vertical.text.menu {
+  background-color: #f7f7f7 !important;
+}
 /*!
  * # Fomantic-UI - Message
  * http://github.com/fomantic/Fomantic-UI/
@@ -49409,14 +49554,14 @@ Floated Menu / Item
 }
 
 .ui.info.message {
-  background-color: #F8FFFF;
-  color: #276F86;
+  background-color: #dff1eb;
+  color: #409178;
 }
 
 .ui.info.message,
 .ui.attached.info.message {
-  -webkit-box-shadow: 0 0 0 1px #A9D5DE inset, 0 0 0 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 0 0 1px #A9D5DE inset, 0 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
 }
 
 .ui.floating.info.message {
@@ -49825,6 +49970,22 @@ Floated Menu / Item
 /*******************************
         Site Overrides
 *******************************/
+
+.radgrad-help-title .icon.dropdown {
+  color: #409178 !important;
+}
+
+.radgrad-help-title span {
+  font-size: 0.9rem;
+  color: #409178;
+  text-transform: uppercase;
+}
+
+.radgrad-help-title .icon.help {
+  color: #409178;
+  position: relative;
+  bottom: 2.5px;
+}
 /*!
  * # Fomantic-UI - Table
  * http://github.com/fomantic/Fomantic-UI/
@@ -54184,6 +54345,39 @@ a.inverted.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
+
+.radgrad-interest-card .content:nth-child(2) > p {
+  text-indent: 4px;
+  font-size: 0.95em;
+}
+
+.radgrad-interest-card .content:nth-child(3) {
+  text-align: center;
+}
+
+.radgrad-interest-card .content:nth-child(3) > h5 {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+}
+
+.radgrad-interest-card .content:nth-child(3) > span {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.radgrad-interest-card .content:nth-child(3) > span {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.radgrad-interest-card .content:nth-child(3) > .images a .image {
+  margin: 0 2px;
+}
 /*!
  * # Fomantic-UI - Comment
  * http://github.com/fomantic/Fomantic-UI/

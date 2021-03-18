@@ -302,13 +302,13 @@
   color: #912D2B;
 }
 .ui.info.message {
-  background-color: #F8FFFF;
-  color: #276F86;
+  background-color: #dff1eb;
+  color: #409178;
 }
 .ui.info.message,
 .ui.attached.info.message {
-  -webkit-box-shadow: 0 0 0 1px #A9D5DE inset, 0 0 0 0 rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0 1px #A9D5DE inset, 0 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
+          box-shadow: 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
 }
 .ui.floating.info.message {
   -webkit-box-shadow: 0 0 0 1px #A9D5DE inset, 0 2px 4px 0 rgba(34, 36, 38, 0.12), 0 2px 10px 0 rgba(34, 36, 38, 0.15);
@@ -641,3 +641,16 @@
         Site Overrides
 *******************************/
 
+.radgrad-help-title .icon.dropdown {
+  color: #409178 !important;
+}
+.radgrad-help-title span {
+  font-size: 0.9rem;
+  color: #409178;
+  text-transform: uppercase;
+}
+.radgrad-help-title .icon.help {
+  color: #409178;
+  position: relative;
+  bottom: 2.5px;
+}

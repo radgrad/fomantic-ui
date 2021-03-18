@@ -1,3 +1,103 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* FIRST MENU */
+.radgrad-first-menu {
+  box-shadow: none !important;
+}
+
+.radgrad-first-menu .item {
+  color: @radgrad-dimGrey !important;
+}
+
+.radgrad-first-menu .icon {
+  color: @radgrad-dimGrey;
+}
+
+/* LOGIN BUTTON */
+#login-buttons-open-change-password, #login-buttons-logout, #login-buttons-password {
+  background: none !important;
+  border-color: #6FBE44 !important;
+  color: #6FBE44 !important;
+  text-transform: uppercase !important;
+  font-size: 0.8rem !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+#login-username-label-and-input, #login-password-label-and-input {
+  text-align: left !important;
+}
+
+#login-name-link {
+  color: #6FBE44 !important;
+  font-weight: 600 !important;
+}
+
+.login-close-text {
+  font-size: 1rem !important;
+  color: #38840F !important;
+  font-weight: 600 !important;
+}
+
+/* MENU PROFILE */
+.radgrad-menu-profile {
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+.radgrad-menu-profile .radgrad-menu-icon-button {
+  font-size: 0.9rem;
+  padding: 0 0.4rem 0 0.8rem !important;
+}
+
+.radgrad-menu-profile .item > .avatar {
+  margin-right: 0.8rem;
+}
+
+.radgrad-menu-profile .header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.radgrad-menu-profile .label {
+  font-size: 0.8rem !important;
+  margin: 4px 0 0 0 !important;
+}
+
+.radgrad-menu-profile .radgrad-level {
+  font-size: 1.2em !important;
+  margin: 0 !important;
+}
+
+/* SECOND MENU */
+.radgrad-second-menu {
+  border-radius: 0;
+  margin-top: @second-menu-margin;
+  z-index: 3 !important;
+}
+.radgrad-second-menu .item {
+  color: @radgrad-menu-color;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+  border-bottom-width: @radgrad-secondary-border-width;
+}
+
+.radgrad-second-menu .item:hover {
+  color: @radgrad-secondary-menu-hover-color;
+}
+
+.radgrad-second-menu .active.item {
+  color: @radgrad-secondary-menu-active-color;
+  border-bottom-color: @radgrad-secondary-border-color !important;
+}
+
+.radgrad-second-menu a.item:active {
+  border-color: @radgrad-secondary-border-color !important;
+}
+
+.ui.vertical.text.menu {
+  background-color: @radgrad-BackgroundColor !important;
+}

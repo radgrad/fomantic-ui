@@ -83,30 +83,12 @@ The install script runs `gulp build` copies dist/semantic.min.css and dist/seman
 
 So that the icon files can be loaded, the dist/themes/ directory is copied to ../../radgrad/app/public.
 
-
 Now you can display RadGrad2 with your new theme modifications. You can also toggle back and forth between the original theme and your new theme by switching back and forth between your branch and the master branch.
 
 ## Theme customizations
 
-Here is a summary of the modifications; follow the links to see the latest definitions:
+In src/site/, there are changes made to various *.variables and *.overrides files. You'll have to look through those subdirectories individually to see the changes.
 
-[src/site/globals/site.overrides](https://github.com/radgrad/fomantic-ui/blob/master/semantic/src/site/globals/site.overrides)
+In addition, I made a change to src/themes/default/globals/site.variables to change the default font size to 16px. See lines 34 and 37. I am not sure why I couldn't make this change in site/globals/site.variables, but it didn't take effect when I did it there. So, I changed it in the default them following the instructions [here](https://github.com/fomantic/Fomantic-UI/issues/1214#issuecomment-564127427).
 
-  * Define global CSS classes to provide theme colors and fonts for standard HTML (i.e. not semantic UI elements.)
 
-[src/site/globals/site.variables](https://github.com/radgrad/fomantic-ui/blob/master/semantic/src/site/globals/site.variables)
-
-  * Define fonts: make Open Sans the default font and Lobster for the brand.
-  * Define the color palette. Using a 'key lime pie' aesthetic. Also ICE Colors.
-
-[src/site/views/card.variables](https://github.com/radgrad/fomantic-ui/blob/master/semantic/src/site/views/card.variables)
-
-  * Override @description and @extracontent color definitions so text isn't so light.
-
-[src/site/collections/menu.variables](https://github.com/radgrad/fomantic-ui/blob/master/semantic/src/site/collections/menu.variables)
-
-  * Override menu and inverted menu background colors with our foreground/background colors.
-
-[src/site/elements/labels.variables](https://github.com/radgrad/fomantic-ui/blob/master/semantic/src/site/elements/label.variables)
-
-  * Override label text color to make it darker.

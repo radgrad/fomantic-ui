@@ -15,23 +15,26 @@
 @largeMonitorBreakpoint      : 1300px;
 @widescreenMonitorBreakpoint : 1400px;
 
-/* Change default font size to 16px */
-@emSize   : 16px;
-@fontSize : 16px;
+/* Define the color palette. From: http://www.colourlovers.com/palette/4349639/Mooiemensen */
+@mermaidGreenColor : #DBE2DB;
+@gardenGreenColor  : #3B8121;
+@navyBlueColor     : #335F82;
+@fuelGoldColor     : #C3AE48;
+@awayAtSeaTurquoiseColor: #91D8DE;
 
 /* Define Palette - Aljon */
-@radgrad-white             : #ffffff;
+@radgrad-white             : #ffffff !important;
 @radgrad-softGrey          : #f7f7f7;
 @radgrad-yellow            : #CEB23F;
 @radgrad-defaultGrey       : rgba(0,0,0,.4);
 @radgrad-dimGrey           : #696969;
 @radgrad-radGreen          : #6FBE44;
 @radgrad-radGreen-darken   : #38840F;
-@radgrad-seaGreen          : #86CAB5;
-@radgrad-seaGreen-darken   : #53A78E;
-@radgrad-seaGreen-darken-1 : #1B7F61;
-@radgrad-orangeYouRad      : #DA7F4E;
-@radgrad-lightOrange       : #C05E2A;
+@radgrad-seaGreen          : #86CAB5 !important;
+@radgrad-seaGreen-darken   : #53A78E !important;
+@radgrad-seaGreen-darken-1 : #1B7F61 !important;
+@radgrad-orangeYouRad      : #DA7F4E !important;
+@radgrad-lightOrange       : #C05E2A !important;
 @radgrad-roseRed           : #CA4864;
 
 /** SET MENU MARGINS */
@@ -42,7 +45,7 @@
 @radgrad-ForegroundColor : @radgrad-radGreen;
 
 /* Misc Dictionary */
-@radgrad-secondary-border-width: 4px;
+@radgrad-secondary-border-width: 4px !important;
 @radgrad-secondary-border-color: @radgrad-radGreen;
 @radgrad-HeaderColor           : @radgrad-white;
 @radgrad-button-fontWeight     : 600;

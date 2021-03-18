@@ -2,7 +2,6 @@
     User Variable Overrides
 *******************************/
 
-
 @descriptionColor: @textColor;
 @extraColor: @textColor;
 @actionOpacity: 1;

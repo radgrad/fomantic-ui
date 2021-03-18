@@ -1,3 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
+label > h1, label > h2, label > h3 {
+  color: @radgrad-label-h-color;
+  text-transform: uppercase !important;
+}
