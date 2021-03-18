@@ -18,10 +18,10 @@
   line-height: 1;
   vertical-align: baseline;
   margin: 0 0.125em;
-  background-color: #53A78E !important;
+  background-color: #53A78E;
   background-image: none;
   padding: 0.5833em 0.833em;
-  color: #ffffff !important;
+  color: #ffffff;
   text-transform: none;
   font-weight: bold;
   border: 0 solid transparent;
@@ -182,7 +182,7 @@ a.ui.label {
   max-width: 9999px;
   vertical-align: baseline;
   text-transform: none;
-  background: #53A78E !important;
+  background: #53A78E;
   padding: 0.5833em 0.833em 0.5833em 0.5em;
   border-radius: 0.25rem;
   -webkit-box-shadow: none;
@@ -280,7 +280,7 @@ a.ui.label {
   margin: 0;
   padding: 0;
   text-align: center;
-  border-color: #53A78E !important;
+  border-color: #53A78E;
   width: 4em;
   height: 4em;
   z-index: 1;
@@ -514,8 +514,8 @@ a.ui.label {
 
 .ui.labels a.label:hover,
 a.ui.label:hover {
-  background-color: #4b9680 !important;
-  border-color: #4b9680 !important;
+  background-color: #4b9680;
+  border-color: #4b9680;
   background-image: none;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -638,13 +638,13 @@ a.ui.basic.label:hover {
 .ui.inverted.labels .label,
 .ui.inverted.label {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #316354 !important;
+  background-color: #316354;
 }
 .ui.inverted.corner.label {
-  border-color: #316354 !important;
+  border-color: #316354;
 }
 .ui.inverted.corner.label:hover {
-  border-color: #53A78E !important;
+  border-color: #53A78E;
   -webkit-transition: none;
   transition: none;
 }

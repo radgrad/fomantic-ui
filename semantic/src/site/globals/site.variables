@@ -23,22 +23,22 @@
 @awayAtSeaTurquoiseColor: #91D8DE;
 
 /* Define Palette - Aljon */
-@radgrad-white             : #ffffff !important;
+@radgrad-white             : #ffffff;
 @radgrad-softGrey          : #f7f7f7;
 @radgrad-yellow            : #CEB23F;
 @radgrad-defaultGrey       : rgba(0,0,0,.4);
 @radgrad-dimGrey           : #696969;
 @radgrad-radGreen          : #6FBE44;
 @radgrad-radGreen-darken   : #38840F;
-@radgrad-seaGreen          : #86CAB5 !important;
-@radgrad-seaGreen-darken   : #53A78E !important;
-@radgrad-seaGreen-darken-1 : #1B7F61 !important;
-@radgrad-orangeYouRad      : #DA7F4E !important;
-@radgrad-lightOrange       : #C05E2A !important;
+@radgrad-seaGreen          : #86CAB5;
+@radgrad-seaGreen-darken   : #53A78E;
+@radgrad-seaGreen-darken-1 : #1B7F61;
+@radgrad-orangeYouRad      : #DA7F4E;
+@radgrad-lightOrange       : #C05E2A;
 @radgrad-roseRed           : #CA4864;
 
 /** SET MENU MARGINS */
-@second-menu-margin: 75px !important;
+@second-menu-margin: 75px;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgrad-BackgroundColor : @radgrad-softGrey;

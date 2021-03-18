@@ -1764,6 +1764,6 @@
 label > h1,
 label > h2,
 label > h3 {
-  color: #1B7F61 !important;
+  color: #1B7F61;
   text-transform: uppercase !important;
 }
