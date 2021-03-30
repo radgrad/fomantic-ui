@@ -487,7 +487,7 @@
 .ui.indeterminate.orange.progress .bar::before,
 .ui.orange.progress .bar,
 .ui.progress .orange.bar {
-  background-color: #F2711C;
+  background-color: #DA7F4E;
 }
 .ui.inverted.indeterminate.orange.progress .bar::before,
 .ui.orange.inverted.progress .bar,
@@ -507,7 +507,7 @@
 .ui.indeterminate.olive.progress .bar::before,
 .ui.olive.progress .bar,
 .ui.progress .olive.bar {
-  background-color: #B5CC18;
+  background-color: #38840F;
 }
 .ui.inverted.indeterminate.olive.progress .bar::before,
 .ui.olive.inverted.progress .bar,

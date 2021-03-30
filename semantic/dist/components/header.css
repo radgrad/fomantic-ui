@@ -401,13 +401,13 @@ a.ui.inverted.red.header.header.header:hover {
   border-bottom: 2px solid #FF695E;
 }
 .ui.orange.header {
-  color: #F2711C;
+  color: #DA7F4E;
 }
 a.ui.orange.header:hover {
-  color: #f26202;
+  color: #dd6d31;
 }
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #F2711C;
+  border-bottom: 2px solid #DA7F4E;
 }
 .ui.inverted.orange.header.header.header {
   color: #FF851B;
@@ -437,13 +437,13 @@ a.ui.inverted.yellow.header.header.header:hover {
   border-bottom: 2px solid #FFE21F;
 }
 .ui.olive.header {
-  color: #B5CC18;
+  color: #38840F;
 }
 a.ui.olive.header:hover {
-  color: #a7bd0d;
+  color: #2d7208;
 }
 .ui.olive.dividing.header {
-  border-bottom: 2px solid #B5CC18;
+  border-bottom: 2px solid #38840F;
 }
 .ui.inverted.olive.header.header.header {
   color: #D9E778;

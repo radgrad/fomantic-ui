@@ -83,7 +83,7 @@
 @grey             : @radgrad-grey;
 @lightblue        : @radgrad-green-2;
 @lightgreen       : lighten(@radgrad-green, 5);
-@olive            : @radgrad-olive
+@olive            : @radgrad-olive;
 @orange           : @radgrad-orange;
 @pink             : @radgrad-pink;
 @purple           : @radgrad-purple;

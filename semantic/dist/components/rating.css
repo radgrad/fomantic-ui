@@ -161,14 +161,14 @@
 }
 .ui.orange.rating .active.icon {
   color: #FF851B;
-  text-shadow: 0px -1px 0px #F2711C, -1px 0px 0px #F2711C, 0px 1px 0px #F2711C, 1px 0px 0px #F2711C;
+  text-shadow: 0px -1px 0px #DA7F4E, -1px 0px 0px #DA7F4E, 0px 1px 0px #DA7F4E, 1px 0px 0px #DA7F4E;
 }
 .ui.orange.rating .icon.selected,
 .ui.orange.rating .icon.selected.active,
 .ui.orange.rating .icon.selected.partial.active {
   background: inherit;
   color: #e76b00;
-  text-shadow: 0px -1px 0px #f26202, -1px 0px 0px #f26202, 0px 1px 0px #f26202, 1px 0px 0px #f26202;
+  text-shadow: 0px -1px 0px #dd6d31, -1px 0px 0px #dd6d31, 0px 1px 0px #dd6d31, 1px 0px 0px #dd6d31;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -177,7 +177,7 @@
   background: -webkit-linear-gradient(left, #FF851B 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #FF851B 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #F2711C 0.78px;
+  -webkit-text-stroke: #DA7F4E 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -207,14 +207,14 @@
 }
 .ui.olive.rating .active.icon {
   color: #D9E778;
-  text-shadow: 0px -1px 0px #B5CC18, -1px 0px 0px #B5CC18, 0px 1px 0px #B5CC18, 1px 0px 0px #B5CC18;
+  text-shadow: 0px -1px 0px #38840F, -1px 0px 0px #38840F, 0px 1px 0px #38840F, 1px 0px 0px #38840F;
 }
 .ui.olive.rating .icon.selected,
 .ui.olive.rating .icon.selected.active,
 .ui.olive.rating .icon.selected.partial.active {
   background: inherit;
   color: #d2e745;
-  text-shadow: 0px -1px 0px #a7bd0d, -1px 0px 0px #a7bd0d, 0px 1px 0px #a7bd0d, 1px 0px 0px #a7bd0d;
+  text-shadow: 0px -1px 0px #2d7208, -1px 0px 0px #2d7208, 0px 1px 0px #2d7208, 1px 0px 0px #2d7208;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -223,7 +223,7 @@
   background: -webkit-linear-gradient(left, #D9E778 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #D9E778 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #B5CC18 0.78px;
+  -webkit-text-stroke: #38840F 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
