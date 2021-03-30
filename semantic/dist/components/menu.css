@@ -1241,7 +1241,7 @@ Floated Menu / Item
 .ui.icon.menu .item {
   height: auto;
   text-align: center;
-  color: #1B1C1D;
+  color: #000000;
 }
 
 /* Icon */
@@ -1396,7 +1396,7 @@ Floated Menu / Item
 .ui.ui.ui.menu .teal.active.item,
 .ui.ui.teal.menu .active.item:hover,
 .ui.ui.teal.menu .active.item {
-  color: #00B5AD;
+  color: #00CCCB;
 }
 .ui.ui.ui.menu .blue.active.item,
 .ui.ui.blue.menu .active.item:hover,
@@ -1406,7 +1406,7 @@ Floated Menu / Item
 .ui.ui.ui.menu .violet.active.item,
 .ui.ui.violet.menu .active.item:hover,
 .ui.ui.violet.menu .active.item {
-  color: #6435C9;
+  color: #62487C;
 }
 .ui.ui.ui.menu .purple.active.item,
 .ui.ui.purple.menu .active.item:hover,
@@ -1421,7 +1421,7 @@ Floated Menu / Item
 .ui.ui.ui.menu .brown.active.item,
 .ui.ui.brown.menu .active.item:hover,
 .ui.ui.brown.menu .active.item {
-  color: #A5673F;
+  color: #AB6634;
 }
 .ui.ui.ui.menu .grey.active.item,
 .ui.ui.grey.menu .active.item:hover,
@@ -1431,7 +1431,7 @@ Floated Menu / Item
 .ui.ui.ui.menu .black.active.item,
 .ui.ui.black.menu .active.item:hover,
 .ui.ui.black.menu .active.item {
-  color: #1B1C1D;
+  color: #000000;
 }
 
 /*--------------
@@ -1440,7 +1440,7 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0 solid transparent;
-  background: #1B1C1D;
+  background: #000000;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1634,7 +1634,7 @@ Floated Menu / Item
 }
 .ui.ui.ui.inverted.menu .teal.active.item,
 .ui.ui.inverted.teal.menu {
-  background-color: #00B5AD;
+  background-color: #00CCCB;
 }
 .ui.inverted.teal.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);
@@ -1643,7 +1643,7 @@ Floated Menu / Item
   background-color: rgba(0, 0, 0, 0.1);
 }
 .ui.inverted.pointing.teal.menu .active.item {
-  background-color: #009c95;
+  background-color: #00b3b2;
 }
 .ui.ui.ui.inverted.menu .blue.active.item,
 .ui.ui.inverted.blue.menu {
@@ -1660,7 +1660,7 @@ Floated Menu / Item
 }
 .ui.ui.ui.inverted.menu .violet.active.item,
 .ui.ui.inverted.violet.menu {
-  background-color: #6435C9;
+  background-color: #62487C;
 }
 .ui.inverted.violet.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);
@@ -1669,7 +1669,7 @@ Floated Menu / Item
   background-color: rgba(0, 0, 0, 0.1);
 }
 .ui.inverted.pointing.violet.menu .active.item {
-  background-color: #5829bb;
+  background-color: #553c6e;
 }
 .ui.ui.ui.inverted.menu .purple.active.item,
 .ui.ui.inverted.purple.menu {
@@ -1699,7 +1699,7 @@ Floated Menu / Item
 }
 .ui.ui.ui.inverted.menu .brown.active.item,
 .ui.ui.inverted.brown.menu {
-  background-color: #A5673F;
+  background-color: #AB6634;
 }
 .ui.inverted.brown.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);
@@ -1708,7 +1708,7 @@ Floated Menu / Item
   background-color: rgba(0, 0, 0, 0.1);
 }
 .ui.inverted.pointing.brown.menu .active.item {
-  background-color: #975b33;
+  background-color: #9d5929;
 }
 .ui.ui.ui.inverted.menu .grey.active.item,
 .ui.ui.inverted.grey.menu {
@@ -1725,7 +1725,7 @@ Floated Menu / Item
 }
 .ui.ui.ui.inverted.menu .black.active.item,
 .ui.ui.inverted.black.menu {
-  background-color: #1B1C1D;
+  background-color: #000000;
 }
 .ui.inverted.black.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);
@@ -1734,7 +1734,7 @@ Floated Menu / Item
   background-color: rgba(0, 0, 0, 0.1);
 }
 .ui.inverted.pointing.black.menu .active.item {
-  background-color: #27292a;
+  background-color: #0d0d0d;
 }
 .ui.ui.ui.inverted.pointing.menu .active.item:after {
   background-color: inherit;
@@ -2009,7 +2009,7 @@ Floated Menu / Item
   background-color: #53A78E;
 }
 .ui.inverted.pointing.menu .secondary.active.item:after {
-  background-color: #1B1C1D;
+  background-color: #000000;
 }
 .ui.inverted.pointing.menu .red.active.item:after {
   background-color: #CA4864;
@@ -2027,13 +2027,13 @@ Floated Menu / Item
   background-color: #6FBE44;
 }
 .ui.inverted.pointing.menu .teal.active.item:after {
-  background-color: #00B5AD;
+  background-color: #00CCCB;
 }
 .ui.inverted.pointing.menu .blue.active.item:after {
   background-color: #53A78E;
 }
 .ui.inverted.pointing.menu .violet.active.item:after {
-  background-color: #6435C9;
+  background-color: #62487C;
 }
 .ui.inverted.pointing.menu .purple.active.item:after {
   background-color: #952263;
@@ -2042,13 +2042,13 @@ Floated Menu / Item
   background-color: #DDA1C3;
 }
 .ui.inverted.pointing.menu .brown.active.item:after {
-  background-color: #A5673F;
+  background-color: #AB6634;
 }
 .ui.inverted.pointing.menu .grey.active.item:after {
   background-color: #696969;
 }
 .ui.inverted.pointing.menu .black.active.item:after {
-  background-color: #1B1C1D;
+  background-color: #000000;
 }
 
 /*--------------
@@ -2190,7 +2190,7 @@ Floated Menu / Item
 --------------------*/
 
 .ui.menu .ui.inverted.inverted.dropdown.item .menu {
-  background: #1B1C1D;
+  background: #000000;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

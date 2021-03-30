@@ -103,7 +103,7 @@
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #1B1C1D;
+  color: #000000;
   text-transform: uppercase;
   text-align: center;
 }
@@ -340,7 +340,7 @@
 .ui.secondary.statistics .statistic > .value,
 .ui.statistics .secondary.statistic > .value,
 .ui.secondary.statistic > .value {
-  color: #1B1C1D;
+  color: #000000;
 }
 .ui.inverted.secondary.statistics .statistic > .value,
 .ui.statistics .inverted.secondary.statistic > .value,
@@ -400,7 +400,7 @@
 .ui.teal.statistics .statistic > .value,
 .ui.statistics .teal.statistic > .value,
 .ui.teal.statistic > .value {
-  color: #00B5AD;
+  color: #00CCCB;
 }
 .ui.inverted.teal.statistics .statistic > .value,
 .ui.statistics .inverted.teal.statistic > .value,
@@ -420,7 +420,7 @@
 .ui.violet.statistics .statistic > .value,
 .ui.statistics .violet.statistic > .value,
 .ui.violet.statistic > .value {
-  color: #6435C9;
+  color: #62487C;
 }
 .ui.inverted.violet.statistics .statistic > .value,
 .ui.statistics .inverted.violet.statistic > .value,
@@ -450,7 +450,7 @@
 .ui.brown.statistics .statistic > .value,
 .ui.statistics .brown.statistic > .value,
 .ui.brown.statistic > .value {
-  color: #A5673F;
+  color: #AB6634;
 }
 .ui.inverted.brown.statistics .statistic > .value,
 .ui.statistics .inverted.brown.statistic > .value,
@@ -470,7 +470,7 @@
 .ui.black.statistics .statistic > .value,
 .ui.statistics .black.statistic > .value,
 .ui.black.statistic > .value {
-  color: #1B1C1D;
+  color: #000000;
 }
 .ui.inverted.black.statistics .statistic > .value,
 .ui.statistics .inverted.black.statistic > .value,

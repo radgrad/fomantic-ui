@@ -328,7 +328,7 @@ h6.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #1B1C1D;
+  background: #000000;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: transparent;
@@ -365,13 +365,13 @@ a.ui.inverted.primary.header.header.header:hover {
   border-bottom: 2px solid #54C8FF;
 }
 .ui.secondary.header {
-  color: #1B1C1D;
+  color: #000000;
 }
 a.ui.secondary.header:hover {
-  color: #27292a;
+  color: #0d0d0d;
 }
 .ui.secondary.dividing.header {
-  border-bottom: 2px solid #1B1C1D;
+  border-bottom: 2px solid #000000;
 }
 .ui.inverted.secondary.header.header.header {
   color: #545454;
@@ -473,13 +473,13 @@ a.ui.inverted.green.header.header.header:hover {
   border-bottom: 2px solid #2ECC40;
 }
 .ui.teal.header {
-  color: #00B5AD;
+  color: #00CCCB;
 }
 a.ui.teal.header:hover {
-  color: #009c95;
+  color: #00b3b2;
 }
 .ui.teal.dividing.header {
-  border-bottom: 2px solid #00B5AD;
+  border-bottom: 2px solid #00CCCB;
 }
 .ui.inverted.teal.header.header.header {
   color: #6DFFFF;
@@ -509,13 +509,13 @@ a.ui.inverted.blue.header.header.header:hover {
   border-bottom: 2px solid #54C8FF;
 }
 .ui.violet.header {
-  color: #6435C9;
+  color: #62487C;
 }
 a.ui.violet.header:hover {
-  color: #5829bb;
+  color: #553c6e;
 }
 .ui.violet.dividing.header {
-  border-bottom: 2px solid #6435C9;
+  border-bottom: 2px solid #62487C;
 }
 .ui.inverted.violet.header.header.header {
   color: #A291FB;
@@ -563,13 +563,13 @@ a.ui.inverted.pink.header.header.header:hover {
   border-bottom: 2px solid #FF8EDF;
 }
 .ui.brown.header {
-  color: #A5673F;
+  color: #AB6634;
 }
 a.ui.brown.header:hover {
-  color: #975b33;
+  color: #9d5929;
 }
 .ui.brown.dividing.header {
-  border-bottom: 2px solid #A5673F;
+  border-bottom: 2px solid #AB6634;
 }
 .ui.inverted.brown.header.header.header {
   color: #D67C1C;
@@ -599,13 +599,13 @@ a.ui.inverted.grey.header.header.header:hover {
   border-bottom: 2px solid #DCDDDE;
 }
 .ui.black.header {
-  color: #1B1C1D;
+  color: #000000;
 }
 a.ui.black.header:hover {
-  color: #27292a;
+  color: #0d0d0d;
 }
 .ui.black.dividing.header {
-  border-bottom: 2px solid #1B1C1D;
+  border-bottom: 2px solid #000000;
 }
 .ui.inverted.black.header.header.header {
   color: #545454;
