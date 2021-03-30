@@ -16,19 +16,26 @@
 @widescreenMonitorBreakpoint : 1400px;
 
 /* Color Palette */
+@radgrad-black             : #000000;
 @radgrad-blue              : #53A78E;
+@radgrad-blue-2            : #26407C;
+@radgrad-brown             : #AB6634;
 @radgrad-green             : #6FBE44;
 @radgrad-green-darken      : #38840F;
 @radgrad-green-2           : #86CAB5;
 @radgrad-green-2-darken    : #53A78E;
 @radgrad-green-2-darken-1  : #1B7F61;
+@radgrad-green-3           : #80AD27;
 @radgrad-grey              : #696969;
 @radgrad-grey-2            : #F7F7F7;
+@radgrad-grey-3            : #EEEEEE;
 @radgrad-olive             : #38840F;
 @radgrad-orange            : #DA7F4E;
 @radgrad-pink              : #DDA1C3;
 @radgrad-purple            : #952263;
 @radgrad-red               : #CA4864;
+@radgrad-teal              : #00CCCB;
+@radgrad-violet            : #62487C;
 @radgrad-white             : #FFFFFF;
 @radgrad-yellow            : #CEB23F;
 
@@ -78,7 +85,9 @@
 @radgrad-hover-item-color: @radgrad-white;
 
 /* Inject the palette into the Semantic UI theme. */
+@black            : @radgrad-black;
 @blue             : @radgrad-blue;
+@brown            : @radgrad-brown;
 @green            : @radgrad-green;
 @grey             : @radgrad-grey;
 @lightblue        : @radgrad-green-2;
@@ -88,6 +97,8 @@
 @pink             : @radgrad-pink;
 @purple           : @radgrad-purple;
 @red              : @radgrad-red;
+@teal             : @radgrad-teal;
+@violet           : @radgrad-violet;
 @white            : @radgrad-white;
 @yellow           : @radgrad-yellow;
 
