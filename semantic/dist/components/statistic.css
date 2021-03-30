@@ -360,7 +360,7 @@
 .ui.orange.statistics .statistic > .value,
 .ui.statistics .orange.statistic > .value,
 .ui.orange.statistic > .value {
-  color: #DA7F4E;
+  color: #F2711C;
 }
 .ui.inverted.orange.statistics .statistic > .value,
 .ui.statistics .inverted.orange.statistic > .value,
@@ -380,7 +380,7 @@
 .ui.olive.statistics .statistic > .value,
 .ui.statistics .olive.statistic > .value,
 .ui.olive.statistic > .value {
-  color: #64ad3c;
+  color: #B5CC18;
 }
 .ui.inverted.olive.statistics .statistic > .value,
 .ui.statistics .inverted.olive.statistic > .value,
@@ -430,7 +430,7 @@
 .ui.purple.statistics .statistic > .value,
 .ui.statistics .purple.statistic > .value,
 .ui.purple.statistic > .value {
-  color: #A333C8;
+  color: #952263;
 }
 .ui.inverted.purple.statistics .statistic > .value,
 .ui.statistics .inverted.purple.statistic > .value,
@@ -440,7 +440,7 @@
 .ui.pink.statistics .statistic > .value,
 .ui.statistics .pink.statistic > .value,
 .ui.pink.statistic > .value {
-  color: #E03997;
+  color: #DDA1C3;
 }
 .ui.inverted.pink.statistics .statistic > .value,
 .ui.statistics .inverted.pink.statistic > .value,
@@ -460,7 +460,7 @@
 .ui.grey.statistics .statistic > .value,
 .ui.statistics .grey.statistic > .value,
 .ui.grey.statistic > .value {
-  color: rgba(0, 0, 0, 0.4);
+  color: #696969;
 }
 .ui.inverted.grey.statistics .statistic > .value,
 .ui.statistics .inverted.grey.statistic > .value,

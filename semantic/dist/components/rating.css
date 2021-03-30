@@ -161,14 +161,14 @@
 }
 .ui.orange.rating .active.icon {
   color: #FF851B;
-  text-shadow: 0px -1px 0px #DA7F4E, -1px 0px 0px #DA7F4E, 0px 1px 0px #DA7F4E, 1px 0px 0px #DA7F4E;
+  text-shadow: 0px -1px 0px #F2711C, -1px 0px 0px #F2711C, 0px 1px 0px #F2711C, 1px 0px 0px #F2711C;
 }
 .ui.orange.rating .icon.selected,
 .ui.orange.rating .icon.selected.active,
 .ui.orange.rating .icon.selected.partial.active {
   background: inherit;
   color: #e76b00;
-  text-shadow: 0px -1px 0px #dd6d31, -1px 0px 0px #dd6d31, 0px 1px 0px #dd6d31, 1px 0px 0px #dd6d31;
+  text-shadow: 0px -1px 0px #f26202, -1px 0px 0px #f26202, 0px 1px 0px #f26202, 1px 0px 0px #f26202;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -177,7 +177,7 @@
   background: -webkit-linear-gradient(left, #FF851B 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #FF851B 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #DA7F4E 0.78px;
+  -webkit-text-stroke: #F2711C 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -207,14 +207,14 @@
 }
 .ui.olive.rating .active.icon {
   color: #D9E778;
-  text-shadow: 0px -1px 0px #64ad3c, -1px 0px 0px #64ad3c, 0px 1px 0px #64ad3c, 1px 0px 0px #64ad3c;
+  text-shadow: 0px -1px 0px #B5CC18, -1px 0px 0px #B5CC18, 0px 1px 0px #B5CC18, 1px 0px 0px #B5CC18;
 }
 .ui.olive.rating .icon.selected,
 .ui.olive.rating .icon.selected.active,
 .ui.olive.rating .icon.selected.partial.active {
   background: inherit;
   color: #d2e745;
-  text-shadow: 0px -1px 0px #579f30, -1px 0px 0px #579f30, 0px 1px 0px #579f30, 1px 0px 0px #579f30;
+  text-shadow: 0px -1px 0px #a7bd0d, -1px 0px 0px #a7bd0d, 0px 1px 0px #a7bd0d, 1px 0px 0px #a7bd0d;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -223,7 +223,7 @@
   background: -webkit-linear-gradient(left, #D9E778 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #D9E778 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #64ad3c 0.78px;
+  -webkit-text-stroke: #B5CC18 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -322,14 +322,14 @@
 }
 .ui.purple.rating .active.icon {
   color: #DC73FF;
-  text-shadow: 0px -1px 0px #A333C8, -1px 0px 0px #A333C8, 0px 1px 0px #A333C8, 1px 0px 0px #A333C8;
+  text-shadow: 0px -1px 0px #952263, -1px 0px 0px #952263, 0px 1px 0px #952263, 1px 0px 0px #952263;
 }
 .ui.purple.rating .icon.selected,
 .ui.purple.rating .icon.selected.active,
 .ui.purple.rating .icon.selected.partial.active {
   background: inherit;
   color: #cf40ff;
-  text-shadow: 0px -1px 0px #9627ba, -1px 0px 0px #9627ba, 0px 1px 0px #9627ba, 1px 0px 0px #9627ba;
+  text-shadow: 0px -1px 0px #851856, -1px 0px 0px #851856, 0px 1px 0px #851856, 1px 0px 0px #851856;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -338,21 +338,21 @@
   background: -webkit-linear-gradient(left, #DC73FF 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #DC73FF 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #A333C8 0.78px;
+  -webkit-text-stroke: #952263 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
 }
 .ui.pink.rating .active.icon {
   color: #FF8EDF;
-  text-shadow: 0px -1px 0px #E03997, -1px 0px 0px #E03997, 0px 1px 0px #E03997, 1px 0px 0px #E03997;
+  text-shadow: 0px -1px 0px #DDA1C3, -1px 0px 0px #DDA1C3, 0px 1px 0px #DDA1C3, 1px 0px 0px #DDA1C3;
 }
 .ui.pink.rating .icon.selected,
 .ui.pink.rating .icon.selected.active,
 .ui.pink.rating .icon.selected.partial.active {
   background: inherit;
   color: #ff5bd1;
-  text-shadow: 0px -1px 0px #e61a8d, -1px 0px 0px #e61a8d, 0px 1px 0px #e61a8d, 1px 0px 0px #e61a8d;
+  text-shadow: 0px -1px 0px #da8bb8, -1px 0px 0px #da8bb8, 0px 1px 0px #da8bb8, 1px 0px 0px #da8bb8;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -361,7 +361,7 @@
   background: -webkit-linear-gradient(left, #FF8EDF 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #FF8EDF 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #E03997 0.78px;
+  -webkit-text-stroke: #DDA1C3 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -391,14 +391,14 @@
 }
 .ui.grey.rating .active.icon {
   color: #DCDDDE;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), -1px 0px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(0, 0, 0, 0.4), 1px 0px 0px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px -1px 0px #696969, -1px 0px 0px #696969, 0px 1px 0px #696969, 1px 0px 0px #696969;
 }
 .ui.grey.rating .icon.selected,
 .ui.grey.rating .icon.selected.active,
 .ui.grey.rating .icon.selected.partial.active {
   background: inherit;
   color: #c2c4c5;
-  text-shadow: 0px -1px 0px rgba(13, 13, 13, 0.4), -1px 0px 0px rgba(13, 13, 13, 0.4), 0px 1px 0px rgba(13, 13, 13, 0.4), 1px 0px 0px rgba(13, 13, 13, 0.4);
+  text-shadow: 0px -1px 0px #767676, -1px 0px 0px #767676, 0px 1px 0px #767676, 1px 0px 0px #767676;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -407,7 +407,7 @@
   background: -webkit-linear-gradient(left, #DCDDDE 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #DCDDDE 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: rgba(0, 0, 0, 0.4) 0.78px;
+  -webkit-text-stroke: #696969 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;

@@ -341,7 +341,7 @@
 
 /* Standard */
 .ui.orange.slider .inner .track-fill {
-  background-color: #DA7F4E;
+  background-color: #F2711C;
 }
 .ui.orange.inverted.slider .inner .track-fill {
   background-color: #FF851B;
@@ -349,11 +349,11 @@
 
 /* Basic */
 .ui.orange.slider.basic .inner .thumb {
-  background-color: #DA7F4E;
+  background-color: #F2711C;
 }
 .ui.orange.slider.basic .inner .thumb:hover,
 .ui.orange.slider.basic:focus .inner .thumb {
-  background-color: #dd6d31;
+  background-color: #f26202;
 }
 
 /* Basic Inverted */
@@ -393,7 +393,7 @@
 
 /* Standard */
 .ui.olive.slider .inner .track-fill {
-  background-color: #64ad3c;
+  background-color: #B5CC18;
 }
 .ui.olive.inverted.slider .inner .track-fill {
   background-color: #D9E778;
@@ -401,11 +401,11 @@
 
 /* Basic */
 .ui.olive.slider.basic .inner .thumb {
-  background-color: #64ad3c;
+  background-color: #B5CC18;
 }
 .ui.olive.slider.basic .inner .thumb:hover,
 .ui.olive.slider.basic:focus .inner .thumb {
-  background-color: #579f30;
+  background-color: #a7bd0d;
 }
 
 /* Basic Inverted */
@@ -523,7 +523,7 @@
 
 /* Standard */
 .ui.purple.slider .inner .track-fill {
-  background-color: #A333C8;
+  background-color: #952263;
 }
 .ui.purple.inverted.slider .inner .track-fill {
   background-color: #DC73FF;
@@ -531,11 +531,11 @@
 
 /* Basic */
 .ui.purple.slider.basic .inner .thumb {
-  background-color: #A333C8;
+  background-color: #952263;
 }
 .ui.purple.slider.basic .inner .thumb:hover,
 .ui.purple.slider.basic:focus .inner .thumb {
-  background-color: #9627ba;
+  background-color: #851856;
 }
 
 /* Basic Inverted */
@@ -549,7 +549,7 @@
 
 /* Standard */
 .ui.pink.slider .inner .track-fill {
-  background-color: #E03997;
+  background-color: #DDA1C3;
 }
 .ui.pink.inverted.slider .inner .track-fill {
   background-color: #FF8EDF;
@@ -557,11 +557,11 @@
 
 /* Basic */
 .ui.pink.slider.basic .inner .thumb {
-  background-color: #E03997;
+  background-color: #DDA1C3;
 }
 .ui.pink.slider.basic .inner .thumb:hover,
 .ui.pink.slider.basic:focus .inner .thumb {
-  background-color: #e61a8d;
+  background-color: #da8bb8;
 }
 
 /* Basic Inverted */
@@ -601,7 +601,7 @@
 
 /* Standard */
 .ui.grey.slider .inner .track-fill {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #696969;
 }
 .ui.grey.inverted.slider .inner .track-fill {
   background-color: #DCDDDE;
@@ -609,11 +609,11 @@
 
 /* Basic */
 .ui.grey.slider.basic .inner .thumb {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #696969;
 }
 .ui.grey.slider.basic .inner .thumb:hover,
 .ui.grey.slider.basic:focus .inner .thumb {
-  background-color: rgba(13, 13, 13, 0.4);
+  background-color: #767676;
 }
 
 /* Basic Inverted */

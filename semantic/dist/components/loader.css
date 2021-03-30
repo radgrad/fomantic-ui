@@ -49,7 +49,7 @@
   height: 100%;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
-  border: 0.2em solid rgba(0, 0, 0, 0.4);
+  border: 0.2em solid #696969;
   border-radius: 500rem;
   -webkit-box-shadow: 0 0 0 1px transparent;
           box-shadow: 0 0 0 1px transparent;
@@ -358,7 +358,7 @@
 .ui.orange.loading.loading.loading.loading .input > i.icon:after,
 .ui.orange.loading.loading.loading.loading > i.icon:after,
 .ui.orange.loader.loader.loader:after {
-  color: #DA7F4E;
+  color: #F2711C;
 }
 .ui.inverted.orange.elastic.loader:before,
 .ui.inverted.orange.elastic.loading.loading.loading:not(.segment):before,
@@ -402,7 +402,7 @@
 .ui.olive.loading.loading.loading.loading .input > i.icon:after,
 .ui.olive.loading.loading.loading.loading > i.icon:after,
 .ui.olive.loader.loader.loader:after {
-  color: #64ad3c;
+  color: #B5CC18;
 }
 .ui.inverted.olive.elastic.loader:before,
 .ui.inverted.olive.elastic.loading.loading.loading:not(.segment):before,
@@ -512,7 +512,7 @@
 .ui.purple.loading.loading.loading.loading .input > i.icon:after,
 .ui.purple.loading.loading.loading.loading > i.icon:after,
 .ui.purple.loader.loader.loader:after {
-  color: #A333C8;
+  color: #952263;
 }
 .ui.inverted.purple.elastic.loader:before,
 .ui.inverted.purple.elastic.loading.loading.loading:not(.segment):before,
@@ -534,7 +534,7 @@
 .ui.pink.loading.loading.loading.loading .input > i.icon:after,
 .ui.pink.loading.loading.loading.loading > i.icon:after,
 .ui.pink.loader.loader.loader:after {
-  color: #E03997;
+  color: #DDA1C3;
 }
 .ui.inverted.pink.elastic.loader:before,
 .ui.inverted.pink.elastic.loading.loading.loading:not(.segment):before,
@@ -578,7 +578,7 @@
 .ui.grey.loading.loading.loading.loading .input > i.icon:after,
 .ui.grey.loading.loading.loading.loading > i.icon:after,
 .ui.grey.loader.loader.loader:after {
-  color: rgba(0, 0, 0, 0.4);
+  color: #696969;
 }
 .ui.inverted.grey.elastic.loader:before,
 .ui.inverted.grey.elastic.loading.loading.loading:not(.segment):before,
@@ -627,7 +627,7 @@
 }
 .ui.elastic.basic.loading.button:before,
 .ui.elastic.basic.loading.button:after {
-  color: rgba(0, 0, 0, 0.4);
+  color: #696969;
 }
 .ui.double.loading.loading.loading.loading.button:after {
   border-bottom-color: currentColor;
@@ -689,7 +689,7 @@
   color: #FFFFFF;
 }
 .ui.inverted.dimmer > .ui.elastic.loader {
-  color: rgba(0, 0, 0, 0.4);
+  color: #696969;
 }
 .ui.elastic.loading.loading:not(.form):not(.segment):after,
 .ui.elastic.loading.loading .input > i.icon:after,

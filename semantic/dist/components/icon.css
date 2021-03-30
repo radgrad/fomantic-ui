@@ -272,14 +272,14 @@ i.inverted.circular.red.icon.icon.icon.icon {
   color: #FFFFFF;
 }
 i.orange.icon.icon.icon.icon {
-  color: #DA7F4E;
+  color: #F2711C;
 }
 i.inverted.orange.icon.icon.icon.icon {
   color: #FF851B;
 }
 i.inverted.bordered.orange.icon.icon.icon.icon,
 i.inverted.circular.orange.icon.icon.icon.icon {
-  background-color: #DA7F4E;
+  background-color: #F2711C;
   color: #FFFFFF;
 }
 i.yellow.icon.icon.icon.icon {
@@ -294,14 +294,14 @@ i.inverted.circular.yellow.icon.icon.icon.icon {
   color: #FFFFFF;
 }
 i.olive.icon.icon.icon.icon {
-  color: #64ad3c;
+  color: #B5CC18;
 }
 i.inverted.olive.icon.icon.icon.icon {
   color: #D9E778;
 }
 i.inverted.bordered.olive.icon.icon.icon.icon,
 i.inverted.circular.olive.icon.icon.icon.icon {
-  background-color: #64ad3c;
+  background-color: #B5CC18;
   color: #FFFFFF;
 }
 i.green.icon.icon.icon.icon {
@@ -349,25 +349,25 @@ i.inverted.circular.violet.icon.icon.icon.icon {
   color: #FFFFFF;
 }
 i.purple.icon.icon.icon.icon {
-  color: #A333C8;
+  color: #952263;
 }
 i.inverted.purple.icon.icon.icon.icon {
   color: #DC73FF;
 }
 i.inverted.bordered.purple.icon.icon.icon.icon,
 i.inverted.circular.purple.icon.icon.icon.icon {
-  background-color: #A333C8;
+  background-color: #952263;
   color: #FFFFFF;
 }
 i.pink.icon.icon.icon.icon {
-  color: #E03997;
+  color: #DDA1C3;
 }
 i.inverted.pink.icon.icon.icon.icon {
   color: #FF8EDF;
 }
 i.inverted.bordered.pink.icon.icon.icon.icon,
 i.inverted.circular.pink.icon.icon.icon.icon {
-  background-color: #E03997;
+  background-color: #DDA1C3;
   color: #FFFFFF;
 }
 i.brown.icon.icon.icon.icon {
@@ -382,14 +382,14 @@ i.inverted.circular.brown.icon.icon.icon.icon {
   color: #FFFFFF;
 }
 i.grey.icon.icon.icon.icon {
-  color: rgba(0, 0, 0, 0.4);
+  color: #696969;
 }
 i.inverted.grey.icon.icon.icon.icon {
   color: #DCDDDE;
 }
 i.inverted.bordered.grey.icon.icon.icon.icon,
 i.inverted.circular.grey.icon.icon.icon.icon {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #696969;
   color: #FFFFFF;
 }
 i.black.icon.icon.icon.icon {

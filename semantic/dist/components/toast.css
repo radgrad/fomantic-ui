@@ -507,7 +507,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.orange.toast {
-  background-color: #DA7F4E;
+  background-color: #F2711C;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.orange.toast,
@@ -525,7 +525,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.olive.toast {
-  background-color: #64ad3c;
+  background-color: #B5CC18;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.olive.toast,
@@ -570,7 +570,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.purple.toast {
-  background-color: #A333C8;
+  background-color: #952263;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.purple.toast,
@@ -579,7 +579,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.pink.toast {
-  background-color: #E03997;
+  background-color: #DDA1C3;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.pink.toast,
@@ -597,7 +597,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.grey.toast {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #696969;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.grey.toast,

@@ -527,7 +527,7 @@
   height: 3em;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
-  border: 0.2em solid rgba(0, 0, 0, 0.4);
+  border: 0.2em solid #696969;
   border-radius: 500rem;
   -webkit-box-shadow: 0 0 0 1px transparent;
           box-shadow: 0 0 0 1px transparent;
@@ -577,10 +577,10 @@
   color: #FFFFFF;
 }
 .ui.orange.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #DA7F4E;
+  border-top: 2px solid #F2711C;
 }
 .ui.inverted.orange.segment.segment.segment.segment.segment {
-  background-color: #DA7F4E;
+  background-color: #F2711C;
   color: #FFFFFF;
 }
 .ui.yellow.segment.segment.segment.segment.segment:not(.inverted) {
@@ -591,10 +591,10 @@
   color: #FFFFFF;
 }
 .ui.olive.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #64ad3c;
+  border-top: 2px solid #B5CC18;
 }
 .ui.inverted.olive.segment.segment.segment.segment.segment {
-  background-color: #64ad3c;
+  background-color: #B5CC18;
   color: #FFFFFF;
 }
 .ui.green.segment.segment.segment.segment.segment:not(.inverted) {
@@ -626,17 +626,17 @@
   color: #FFFFFF;
 }
 .ui.purple.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #A333C8;
+  border-top: 2px solid #952263;
 }
 .ui.inverted.purple.segment.segment.segment.segment.segment {
-  background-color: #A333C8;
+  background-color: #952263;
   color: #FFFFFF;
 }
 .ui.pink.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #E03997;
+  border-top: 2px solid #DDA1C3;
 }
 .ui.inverted.pink.segment.segment.segment.segment.segment {
-  background-color: #E03997;
+  background-color: #DDA1C3;
   color: #FFFFFF;
 }
 .ui.brown.segment.segment.segment.segment.segment:not(.inverted) {
@@ -647,10 +647,10 @@
   color: #FFFFFF;
 }
 .ui.grey.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  border-top: 2px solid #696969;
 }
 .ui.inverted.grey.segment.segment.segment.segment.segment {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #696969;
   color: #FFFFFF;
 }
 .ui.black.segment.segment.segment.segment.segment:not(.inverted) {

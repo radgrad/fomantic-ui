@@ -995,7 +995,7 @@ select.ui.dropdown {
   height: 1.3125em;
   -webkit-animation: loader 0.6s infinite linear;
           animation: loader 0.6s infinite linear;
-  border: 0.2em solid rgba(0, 0, 0, 0.4);
+  border: 0.2em solid #696969;
   border-radius: 500rem;
 }
 
