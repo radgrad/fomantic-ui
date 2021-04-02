@@ -38,7 +38,7 @@
 .ui.slider .inner .track-fill {
   position: absolute;
   border-radius: 4px;
-  background-color: #000000;
+  background-color: #333333;
 }
 .ui.slider:not(.vertical) .inner .track-fill {
   height: 0.4em;
@@ -289,7 +289,7 @@
 
 /* Standard */
 .ui.secondary.slider .inner .track-fill {
-  background-color: #000000;
+  background-color: #333333;
 }
 .ui.secondary.inverted.slider .inner .track-fill {
   background-color: #545454;
@@ -297,11 +297,11 @@
 
 /* Basic */
 .ui.secondary.slider.basic .inner .thumb {
-  background-color: #000000;
+  background-color: #333333;
 }
 .ui.secondary.slider.basic .inner .thumb:hover,
 .ui.secondary.slider.basic:focus .inner .thumb {
-  background-color: #0d0d0d;
+  background-color: #404040;
 }
 
 /* Basic Inverted */
@@ -445,7 +445,7 @@
 
 /* Standard */
 .ui.teal.slider .inner .track-fill {
-  background-color: #00CCCB;
+  background-color: #00B5AD;
 }
 .ui.teal.inverted.slider .inner .track-fill {
   background-color: #6DFFFF;
@@ -453,11 +453,11 @@
 
 /* Basic */
 .ui.teal.slider.basic .inner .thumb {
-  background-color: #00CCCB;
+  background-color: #00B5AD;
 }
 .ui.teal.slider.basic .inner .thumb:hover,
 .ui.teal.slider.basic:focus .inner .thumb {
-  background-color: #00b3b2;
+  background-color: #009c95;
 }
 
 /* Basic Inverted */
@@ -575,7 +575,7 @@
 
 /* Standard */
 .ui.brown.slider .inner .track-fill {
-  background-color: #AB6634;
+  background-color: #A94E2A;
 }
 .ui.brown.inverted.slider .inner .track-fill {
   background-color: #D67C1C;
@@ -583,11 +583,11 @@
 
 /* Basic */
 .ui.brown.slider.basic .inner .thumb {
-  background-color: #AB6634;
+  background-color: #A94E2A;
 }
 .ui.brown.slider.basic .inner .thumb:hover,
 .ui.brown.slider.basic:focus .inner .thumb {
-  background-color: #9d5929;
+  background-color: #9a421f;
 }
 
 /* Basic Inverted */
@@ -627,7 +627,7 @@
 
 /* Standard */
 .ui.black.slider .inner .track-fill {
-  background-color: #000000;
+  background-color: #333333;
 }
 .ui.black.inverted.slider .inner .track-fill {
   background-color: #545454;
@@ -635,11 +635,11 @@
 
 /* Basic */
 .ui.black.slider.basic .inner .thumb {
-  background-color: #000000;
+  background-color: #333333;
 }
 .ui.black.slider.basic .inner .thumb:hover,
 .ui.black.slider.basic:focus .inner .thumb {
-  background-color: #0d0d0d;
+  background-color: #404040;
 }
 
 /* Basic Inverted */
@@ -658,11 +658,11 @@
 
 /* Standard */
 .ui.slider.basic .inner .thumb {
-  background-color: #000000;
+  background-color: #333333;
 }
 .ui.slider.basic .inner .thumb:hover,
 .ui.slider.basic:focus .inner .thumb {
-  background-color: #0d0d0d;
+  background-color: #404040;
 }
 
 /*--------------

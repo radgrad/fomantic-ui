@@ -16,28 +16,26 @@
 @widescreenMonitorBreakpoint : 1400px;
 
 /* Color Palette */
-@radgrad-black             : #000000;
+@radgrad-black             : #333333;	// level6
 @radgrad-blue              : #53A78E;
-@radgrad-blue-2            : #26407C;
-@radgrad-brown             : #AB6634;
-@radgrad-green             : #6FBE44;
-@radgrad-green-darken      : #38840F;
-@radgrad-green-2           : #86CAB5;
-@radgrad-green-2-darken    : #53A78E;
-@radgrad-green-2-darken-1  : #1B7F61;
-@radgrad-green-3           : #80AD27;
-@radgrad-grey              : #696969;
-@radgrad-grey-2            : #F7F7F7;
-@radgrad-grey-3            : #EEEEEE;
+@radgrad-blue-2		         : #86CAB5;	// light blue
+@radgrad-blue-3		         : #1B7F61;	// dark blue
+@radgrad-brown             : #A94E2A;	// level5
+@radgrad-green             : #6FBE44;	// ice innovation, level3
+@radgrad-green-2           : #C5EA7A;	// light green
+@radgrad-grey              : #696969;	// level1
+@radgrad-grey-2            : #EEEEEE;	// light grey, background
+@radgrad-navy		           : #26407C;	// ice competency, level4
+@radgrad-navy-2            : #91a1c3; // light navy
 @radgrad-olive             : #38840F;
 @radgrad-orange            : #DA7F4E;
 @radgrad-pink              : #DDA1C3;
-@radgrad-purple            : #952263;
+@radgrad-purple            : #952263;    // ice experience
 @radgrad-red               : #CA4864;
-@radgrad-teal              : #00CCCB;
+@radgrad-teal              : #00B5AD;
 @radgrad-violet            : #62487C;
 @radgrad-white             : #FFFFFF;
-@radgrad-yellow            : #CEB23F;
+@radgrad-yellow            : #CEB23F;    // level2
 
 /** SET MENU MARGINS */
 @second-menu-margin: 75px;
@@ -62,24 +60,24 @@
 @radgrad-primary-button-background  :       @radgrad-green;
 @radgrad-secondary-button-background:       darken(@radgrad-green, 5);
 @radgrad-secondary-button-hover-background: darken(@radgrad-green, 10);
-@radgrad-label-background           :       @radgrad-green-2-darken;
-@radgrad-label-hover-background     :       darken(@radgrad-green-2-darken, 5);
+@radgrad-label-background           :       @radgrad-blue;
+@radgrad-label-hover-background     :       darken(@radgrad-blue, 5);
 @radgrad-pagination-background-color:       @radgrad-white;
 @radgrad-pagination-border-color    :       @radgrad-green;
 
 /** TEXT DICTIONARY **/
 /* Link */
-@link-color      : @radgrad-green-darken;
-@link-hover-color: darken(@radgrad-green-darken, 5);
+@link-color      : @radgrad-olive;
+@link-hover-color: darken(@radgrad-olive, 5);
 
 /* Menu */
-@radgrad-menu-color                 : @radgrad-green-2;
-@radgrad-secondary-menu-hover-color : @radgrad-green-2-darken-1;
-@radgrad-secondary-menu-active-color: @radgrad-green-2-darken-1;
+@radgrad-menu-color                 : @radgrad-blue;
+@radgrad-secondary-menu-hover-color : @radgrad-blue-3;
+@radgrad-secondary-menu-active-color: @radgrad-blue-3;
 
-@radgrad-header-color    : @radgrad-green-2-darken-1;
+@radgrad-header-color    : @radgrad-blue-3;
 @radgrad-label-color     : @radgrad-white;
-@radgrad-label-h-color   : @radgrad-green-2-darken-1;
+@radgrad-label-h-color   : @radgrad-blue-3;
 @radgrad-label-icon-color: @radgrad-white;
 @radgrad-button-textColor: @radgrad-white;
 @radgrad-hover-item-color: @radgrad-white;
@@ -90,7 +88,7 @@
 @brown            : @radgrad-brown;
 @green            : @radgrad-green;
 @grey             : @radgrad-grey;
-@lightblue        : @radgrad-green-2;
+@lightblue        : @radgrad-blue-2;
 @lightgreen       : lighten(@radgrad-green, 5);
 @olive            : @radgrad-olive;
 @orange           : @radgrad-orange;
@@ -103,10 +101,10 @@
 @yellow           : @radgrad-yellow;
 
 /** ICE Colors **/
-@iceInnovationColor : #80AD27;
-@iceCompetencyColor : #26407C;
-@iceExperienceColor : #952263;
+@iceInnovationColor : @radgrad-green;
+@iceCompetencyColor : @radgrad-navy;
+@iceExperienceColor : @radgrad-purple;
 
-@iceInnovationProjColor : #C5EA7A;
-@iceCompetencyProjColor : #91a1c3;
-@iceExperienceProjColor : #dda1c3;
+@iceInnovationProjColor : @radgrad-green-2;
+@iceCompetencyProjColor : @radgrad-navy-2;
+@iceExperienceProjColor : @radgrad-pink;

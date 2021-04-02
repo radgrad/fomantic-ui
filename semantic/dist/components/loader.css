@@ -314,7 +314,7 @@
 .ui.secondary.loading.loading.loading.loading .input > i.icon:after,
 .ui.secondary.loading.loading.loading.loading > i.icon:after,
 .ui.secondary.loader.loader.loader:after {
-  color: #000000;
+  color: #333333;
 }
 .ui.inverted.secondary.elastic.loader:before,
 .ui.inverted.secondary.elastic.loading.loading.loading:not(.segment):before,
@@ -446,7 +446,7 @@
 .ui.teal.loading.loading.loading.loading .input > i.icon:after,
 .ui.teal.loading.loading.loading.loading > i.icon:after,
 .ui.teal.loader.loader.loader:after {
-  color: #00CCCB;
+  color: #00B5AD;
 }
 .ui.inverted.teal.elastic.loader:before,
 .ui.inverted.teal.elastic.loading.loading.loading:not(.segment):before,
@@ -556,7 +556,7 @@
 .ui.brown.loading.loading.loading.loading .input > i.icon:after,
 .ui.brown.loading.loading.loading.loading > i.icon:after,
 .ui.brown.loader.loader.loader:after {
-  color: #AB6634;
+  color: #A94E2A;
 }
 .ui.inverted.brown.elastic.loader:before,
 .ui.inverted.brown.elastic.loading.loading.loading:not(.segment):before,
@@ -600,7 +600,7 @@
 .ui.black.loading.loading.loading.loading .input > i.icon:after,
 .ui.black.loading.loading.loading.loading > i.icon:after,
 .ui.black.loader.loader.loader:after {
-  color: #000000;
+  color: #333333;
 }
 .ui.inverted.black.elastic.loader:before,
 .ui.inverted.black.elastic.loading.loading.loading:not(.segment):before,

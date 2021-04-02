@@ -232,7 +232,7 @@ a:hover {
 
 /*  BACKGROUND COLOR */
 .radgrad-background-color {
-  background: #F7F7F7;
+  background: #EEEEEE;
 }
 
 /* ICE */
@@ -259,7 +259,7 @@ a:hover {
   background: #26407C;
 }
 .ice-innovation-background {
-  background: #80AD27;
+  background: #6FBE44;
 }
 .ice-experience-background {
   background: #952263;
@@ -271,7 +271,7 @@ a:hover {
   color: #91a1c3 !important;
 }
 .ice-innovation-color {
-  color: #80AD27 !important;
+  color: #6FBE44 !important;
 }
 .ice-innovation-proj-color {
   color: #C5EA7A !important;
@@ -280,7 +280,7 @@ a:hover {
   color: #952263 !important;
 }
 .ice-experience-proj-color {
-  color: #dda1c3 !important;
+  color: #DDA1C3 !important;
 }
 
 
@@ -349,7 +349,7 @@ a:hover {
 
 /* Innovation Font Style */
 .radgrad-proj-innov span:nth-of-type(1) {
-  color: #80AD27;
+  color: #6FBE44;
   font-weight: bold;
 }
 .radgrad-proj-innov span:nth-of-type(2) {
@@ -357,7 +357,7 @@ a:hover {
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-innov .radgrad-ice-stat > span {
-  color: #80AD27 !important;
+  color: #6FBE44 !important;
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-innov .radgrad-ice-stat > span {
@@ -389,7 +389,7 @@ a:hover {
   font-weight: bold;
 }
 .radgrad-proj-exp span:nth-of-type(2) {
-  color: #dda1c3;
+  color: #DDA1C3;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-exp .radgrad-ice-stat > span {
@@ -397,7 +397,7 @@ a:hover {
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-exp .radgrad-ice-stat > span {
-  color: #dda1c3;
+  color: #DDA1C3;
   font-weight: normal;
 }
 .radgrad-ice .radgrad-ice-circle:nth-of-type(2) {
@@ -1112,7 +1112,7 @@ a:hover {
 }
 .radgrad-ice-circle.radgrad-earn-innov .bar,
 .radgrad-ice-circle.radgrad-earn-innov .fill {
-  border-color: #80AD27 !important;
+  border-color: #6FBE44 !important;
 }
 .radgrad-ice-circle.radgrad-proj-comp .bar,
 .radgrad-ice-circle.radgrad-proj-comp .fill {
@@ -1124,7 +1124,7 @@ a:hover {
 }
 .radgrad-ice-circle.radgrad-proj-exp .bar,
 .radgrad-ice-circle.radgrad-proj-exp .fill {
-  border-color: #dda1c3 !important;
+  border-color: #DDA1C3 !important;
 }
 .radgrad-ice-circle.radgrad-earn-exp .bar,
 .radgrad-ice-circle.radgrad-earn-exp .fill {

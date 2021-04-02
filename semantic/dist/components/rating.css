@@ -115,14 +115,14 @@
 }
 .ui.secondary.rating .active.icon {
   color: #545454;
-  text-shadow: 0px -1px 0px #000000, -1px 0px 0px #000000, 0px 1px 0px #000000, 1px 0px 0px #000000;
+  text-shadow: 0px -1px 0px #333333, -1px 0px 0px #333333, 0px 1px 0px #333333, 1px 0px 0px #333333;
 }
 .ui.secondary.rating .icon.selected,
 .ui.secondary.rating .icon.selected.active,
 .ui.secondary.rating .icon.selected.partial.active {
   background: inherit;
   color: #6e6e6e;
-  text-shadow: 0px -1px 0px #0d0d0d, -1px 0px 0px #0d0d0d, 0px 1px 0px #0d0d0d, 1px 0px 0px #0d0d0d;
+  text-shadow: 0px -1px 0px #404040, -1px 0px 0px #404040, 0px 1px 0px #404040, 1px 0px 0px #404040;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -131,7 +131,7 @@
   background: -webkit-linear-gradient(left, #545454 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #545454 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #000000 0.78px;
+  -webkit-text-stroke: #333333 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -253,14 +253,14 @@
 }
 .ui.teal.rating .active.icon {
   color: #6DFFFF;
-  text-shadow: 0px -1px 0px #00CCCB, -1px 0px 0px #00CCCB, 0px 1px 0px #00CCCB, 1px 0px 0px #00CCCB;
+  text-shadow: 0px -1px 0px #00B5AD, -1px 0px 0px #00B5AD, 0px 1px 0px #00B5AD, 1px 0px 0px #00B5AD;
 }
 .ui.teal.rating .icon.selected,
 .ui.teal.rating .icon.selected.active,
 .ui.teal.rating .icon.selected.partial.active {
   background: inherit;
   color: #3affff;
-  text-shadow: 0px -1px 0px #00b3b2, -1px 0px 0px #00b3b2, 0px 1px 0px #00b3b2, 1px 0px 0px #00b3b2;
+  text-shadow: 0px -1px 0px #009c95, -1px 0px 0px #009c95, 0px 1px 0px #009c95, 1px 0px 0px #009c95;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -269,7 +269,7 @@
   background: -webkit-linear-gradient(left, #6DFFFF 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #6DFFFF 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #00CCCB 0.78px;
+  -webkit-text-stroke: #00B5AD 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -368,14 +368,14 @@
 }
 .ui.brown.rating .active.icon {
   color: #D67C1C;
-  text-shadow: 0px -1px 0px #AB6634, -1px 0px 0px #AB6634, 0px 1px 0px #AB6634, 1px 0px 0px #AB6634;
+  text-shadow: 0px -1px 0px #A94E2A, -1px 0px 0px #A94E2A, 0px 1px 0px #A94E2A, 1px 0px 0px #A94E2A;
 }
 .ui.brown.rating .icon.selected,
 .ui.brown.rating .icon.selected.active,
 .ui.brown.rating .icon.selected.partial.active {
   background: inherit;
   color: #b0620f;
-  text-shadow: 0px -1px 0px #9d5929, -1px 0px 0px #9d5929, 0px 1px 0px #9d5929, 1px 0px 0px #9d5929;
+  text-shadow: 0px -1px 0px #9a421f, -1px 0px 0px #9a421f, 0px 1px 0px #9a421f, 1px 0px 0px #9a421f;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -384,7 +384,7 @@
   background: -webkit-linear-gradient(left, #D67C1C 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #D67C1C 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #AB6634 0.78px;
+  -webkit-text-stroke: #A94E2A 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -414,14 +414,14 @@
 }
 .ui.black.rating .active.icon {
   color: #545454;
-  text-shadow: 0px -1px 0px #000000, -1px 0px 0px #000000, 0px 1px 0px #000000, 1px 0px 0px #000000;
+  text-shadow: 0px -1px 0px #333333, -1px 0px 0px #333333, 0px 1px 0px #333333, 1px 0px 0px #333333;
 }
 .ui.black.rating .icon.selected,
 .ui.black.rating .icon.selected.active,
 .ui.black.rating .icon.selected.partial.active {
   background: inherit;
   color: #000000;
-  text-shadow: 0px -1px 0px #0d0d0d, -1px 0px 0px #0d0d0d, 0px 1px 0px #0d0d0d, 1px 0px 0px #0d0d0d;
+  text-shadow: 0px -1px 0px #404040, -1px 0px 0px #404040, 0px 1px 0px #404040, 1px 0px 0px #404040;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
@@ -430,7 +430,7 @@
   background: -webkit-linear-gradient(left, #545454 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   background: linear-gradient(to right, #545454 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
   text-shadow: none;
-  -webkit-text-stroke: #000000 0.78px;
+  -webkit-text-stroke: #333333 0.78px;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
